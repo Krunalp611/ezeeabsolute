@@ -1,0 +1,3489 @@
+.exitPopup.modal,
+.exitPopup.modal.in {
+    display: none !important;
+}
+
+.adsCountryBody.modal-open {
+    overflow-y: auto !important;
+    padding-right: 0 !important;
+    overflow-x: hidden;
+}
+
+#header-section,
+#footer-section,
+#topBar {
+    /*display: none !important;*/
+}
+
+.adsCountryBody.topBarBody.tbShow .slidecontainer {
+    top: 0 !important;
+    margin-top: 0 !important;
+}
+
+
+/*.countryPage {overflow: hidden;}*/
+
+.adsCountryBody .countryPage {overflow-x: hidden;}
+.countryPage .countryBanner:after {
+    background: #FFF;
+}
+
+.countryPage .trialReviews {
+    background: #fff;
+    /*color: #FFF;*/
+}
+
+.countryPage #trialReviews {
+    /*background: #f6f7f9;*/
+}
+
+.countryPage #trialReviews.owl-theme .owl-controls .owl-buttons div:before {
+    background: rgb(255 193 7 / 80%);
+}
+
+.trialReviews .trialReviewsOuter {
+    position: relative;
+}
+
+.trialReviews .trialReviewsOuter:before {
+    content: "\f10d";
+    font-family: fontAwesome;
+    font-size: 120px;
+    color: rgba(167, 172, 199, 0.1);
+    position: absolute;
+    top: 80px;
+    left: 2px;
+}
+
+.countryPage .countryMidcta {
+    padding: 0 0 40px;
+    background: none;
+}
+
+.citiesSections {
+    position: relative;
+    z-index: 1;
+}
+
+.countryPage .countryGst {
+    background: #4965f9;
+    color: #FFF;
+}
+
+.countryPage .countryGstImg img {
+    background: #FFF;
+    box-shadow: 0px 10px 66px -14px rgb(0 0 0 / 40%);
+}
+
+.countryPage .countryGst.countryGstAlt {
+    background: #3f5aeb;
+    padding: 60px 0;
+}
+
+.countryPage .countryGst.countryGstAlt .countryGstInner {
+    flex-direction: row;
+}
+
+.countryPage .countryGst.countryGstAlt .countryGstImg {
+    margin: 0 50px 0 0;
+}
+
+.countryPage .countryGst.countryGstAlt .countryGstImg img {
+    background: #FFF;
+    box-shadow: 0px 10px 66px -14px rgb(0 0 0 / 40%);
+    padding: 40px;
+}
+
+.countryPage .countryGst.countryGstAlt .countryGstContent p:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.complianceGridsection {
+    padding: 80px 0;
+    background: #ffffff;
+    background: -moz-linear-gradient(top, #ffffff 0%, #f5f5f5 100%);
+    background: -webkit-linear-gradient(top, #ffffff 0%, #f5f5f5 100%);
+    background: linear-gradient(to bottom, #ffffff 0%, #f5f5f5 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f5f5f5', GradientType=0);
+}
+
+.complianceGridInner {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 20px 30px 0px rgb(0 0 0 / 15%);
+}
+
+.complianceGrid {
+    display: flex;
+}
+
+.complianceGrid:nth-of-type(odd) {
+    flex-direction: row-reverse;
+}
+
+.complianceGridImg {
+    padding: 30px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFF;
+    border-radius: 0;
+}
+
+.complianceGridImg img {
+    max-width: 100%;
+    max-height: 300px;
+}
+
+.complianceGridContent {
+    padding: 40px;
+    background: #4965f9;
+    color: #FFF;
+    width: 50%;
+    border-radius: 0;
+}
+
+.complianceGridContent h3 {
+    margin: 0 0 20px;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+.complianceGridContent p {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.complianceGridContent p:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.complianceGridContent ul {
+    margin: 30px 0 0;
+    padding: 0 0 0 15px;
+    font-size: 15px;
+}
+
+.complianceGridContent ul li {
+    margin: 0;
+    line-height: 1.4;
+}
+
+.complianceGridContent ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.indiaMapsection {
+    padding: 60px 0 100px;
+    position: relative;
+    z-index: 1;
+}
+
+.indiaMapsectionInner {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.indiaMapsectionImg {
+    width: 50%;
+    margin-left: 50px;
+}
+
+.indiaMapsectionImg img {
+    transition: all .5s ease-in-out;
+    max-height: 450px;
+    -webkit-filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.2));
+    transform: scale(1.3);
+}
+
+.indiaMapsectionImg:hover img {
+    transform: scale(1.35);
+    -webkit-filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.3));
+    filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.3));
+}
+
+.indiaMapsectionContent {
+    width: calc(45% - 50px);
+}
+
+.indiaMapsectionContent h2 {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.3;
+    /* color: #FFF; */
+    margin: 0;
+}
+
+.indiaMapsectionContent h2 span {
+    font-size: 28px;
+    font-weight: 600;
+    display: block;
+}
+
+.countryFormHead {
+    color: #333;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    background: #eef0f9;
+    padding: 15px 20px;
+    border-radius: 6px 6px 0 0;
+    margin: -30px -20px 30px;
+    display: none !important;
+}
+
+
+/* Exit popup */
+
+.popupDesign.indiaExitpopupDesign {
+    background: #FFF;
+    color: #222;
+}
+
+.popupDesign.indiaExitpopupDesign:before {
+    display: none;
+}
+
+.popupDesign.indiaExitpopupDesign .pdInner {
+    flex-direction: row;
+    text-align: initial;
+    justify-content: center;
+    max-width: 920px;
+}
+
+.popupDesign.indiaExitpopupDesign .pdInner .pdLeft {
+    width: calc(100% - 350px);
+}
+
+.indiaExitpopupFormHead {
+    margin: 0 0 20px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.4;
+    background: #f7f7f7;
+    color: #555;
+    padding: 10px;
+    border-radius: 4px 4px 4px 0;
+    position: relative;
+}
+
+.indiaExitpopupFormHead:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    border-top: 7px solid #e5e5e5;
+    border-left: 10px solid transparent;
+}
+
+.popupDesign.indiaExitpopupDesign .pdInner .pdLeft h2 {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.3;
+    margin: 0;
+}
+
+.popupDesign.indiaExitpopupDesign .pdInner .pdLeft h2 span {
+    display: block;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1;
+    margin: 20px 0 0;
+    color: #555;
+}
+
+.popupDesign.indiaExitpopupDesign .pdInner .pdLeft p {
+    margin: 25px 0 0;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.popupDesign.indiaExitpopupDesign .pdInner .pdRight {
+    width: 300px;
+    margin-left: 50px;
+}
+
+.popupDesign.indiaExitpopupDesign .pdInner .pdRight .generalForm {
+    padding: 0;
+}
+
+.popupDesign.indiaExitpopupDesign .generalForm .hs-form-field {
+    margin: 13px 0 28px;
+    text-align: left;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.popupDesign.indiaExitpopupDesign .generalForm .hs-form-field label {
+    padding: 0 4px 4px;
+    margin: 0;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: initial;
+    display: inline-block;
+    vertical-align: middle;
+    color: #33475b;
+    position: absolute;
+    top: -10px;
+    left: 6px;
+    z-index: 3;
+    background: #FFF;
+    transition: all 0.3s ease;
+}
+
+.popupDesign.indiaExitpopupDesign .generalForm .hs-submit {
+    margin: 20px 0 0;
+}
+
+.popupDesign.indiaExitpopupDesign .generalForm .hs-submit .hs-button {
+    padding: 13px 20px;
+    border-radius: 4px;
+    border: 1px solid #4965f9;
+    background: #4965f9;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2em;
+    width: 100%;
+    transition: all 0.4s ease;
+}
+
+.popupDesign.indiaExitpopupDesign .generalForm .hs-form-field.hs-fieldtype-booleancheckbox {
+    margin-bottom: 30px;
+}
+
+.popupDesign.indiaExitpopupDesign .generalForm .inputs-list {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    text-align: left;
+}
+
+.popupDesign.indiaExitpopupDesign .generalForm .hs-form-field.hs-fieldtype-booleancheckbox label {
+    display: flex;
+    flex-flow: row;
+    align-items: flex-start;
+    left: 0;
+    padding: 0 0 10px;
+}
+
+.popupDesign.indiaExitpopupDesign .generalForm .hs-form-field.hs-fieldtype-booleancheckbox label .hs-input {
+    /* flex: 0 0 24px; */
+    width: 24px;
+    margin: 5px 10px 0 0;
+}
+
+.popupDesign.indiaExitpopupDesign .generalForm .hs-form-field .hs-error-msgs {
+    padding: 0;
+    line-height: initial;
+    margin: 0;
+    list-style: none;
+    animation: animeLeft 0.5s ease;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+.popupDesign.indiaExitpopupDesign .generalForm .hs-form-field .hs-error-msgs li {
+    line-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.popupDesign.indiaExitpopupDesign .generalForm .hs-form-field .hs-error-msgs label {
+    padding: 0;
+    margin: 0;
+    color: #f98181;
+    font-size: 11px;
+    letter-spacing: 0.03em;
+    line-height: 1.2em;
+    font-weight: 400;
+    position: relative;
+    left: 0;
+    top: 0;
+    transition: all 0.3s ease;
+}
+
+.popupDesign.indiaExitpopupDesign .hs_error_rollup {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    z-index: 3;
+}
+
+.popupDesign.indiaExitpopupDesign .hs_error_rollup .hs-error-msgs {
+    padding: 0;
+    line-height: initial;
+    margin: -10px 0 -10px;
+    list-style: none;
+    animation: animeLeft 0.5s ease;
+    width: 100%;
+}
+
+.popupDesign.indiaExitpopupDesign .hs_error_rollup .hs-error-msgs li {
+    margin: 0;
+    line-height: 100%;
+}
+
+.popupDesign.indiaExitpopupDesign .hs_error_rollup .hs-error-msgs label {
+    padding: 8px 10px;
+    margin: 0;
+    color: #FFF;
+    font-size: 11px;
+    padding: 6px 10px;
+    border-radius: 3px;
+    line-height: 100%;
+    font-weight: 400;
+    position: relative;
+    left: 0;
+    top: 0;
+    transition: all 0.3s ease;
+    background: #f98181;
+    display: block;
+    text-align: center;
+    z-index: 1;
+}
+
+.popupDesign.indiaExitpopupDesign .generalForm .hs-form-field.hs-fieldtype-booleancheckbox .hs-error-msgs label {
+    font-weight: 600;
+    top: 5px;
+}
+
+
+/* Media */
+
+@media (max-width:1920px) {
+    .countryPage .bs-sec2 .bsImg-cmOuter {
+        left: -14%;
+        top: 45%;
+    }
+    .countryPage .bs-sec4 .bsImg-cmOuter {
+        left: -14%;
+        top: 50%;
+    }
+    .countryPage .bsImg.bsImg-cm {
+        transform: scale(1);
+    }
+}
+
+@media (max-width:1600px) {
+    .countryPage .bs-sec2 .bsImg-cmOuter,
+    .countryPage .bs-sec4 .bsImg-cmOuter {
+        left: -16%;
+    }
+}
+
+@media (max-width:1450px) {
+    .countryPage .bs-sec2 .bsImg-cmOuter,
+    .countryPage .bs-sec4 .bsImg-cmOuter {
+        left: -16%;
+    }
+    .countryPage .bsImg.bsImg-cm {
+        transform: scale(0.9);
+    }
+}
+
+@media (max-width:1199px) {
+    .indiaMapsectionContent h2 {
+        font-size: 36px;
+    }
+    .indiaMapsectionContent h2 span {
+        font-size: 24px;
+    }
+    .indiaMapsectionImg img,
+    .indiaMapsectionImg:hover img {
+        transform: scale(1.2);
+    }
+}
+
+@media (max-width:991px) {
+    .countryPage .countryGst.countryGstAlt .countryGstImg {
+        margin: 0 auto 50px;
+    }
+    .complianceGridsection {
+        padding: 40px 0;
+    }
+    .complianceGridInner {
+        box-shadow: none;
+        border-radius: 0;
+    }
+    .complianceGrid {
+        flex-direction: column;
+        box-shadow: 0 10px 15px -2px rgb(0 0 0 / 15%);
+        margin: 20px 10px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .complianceGrid:nth-of-type(odd) {
+        flex-direction: column;
+    }
+    .complianceGridImg,
+    .complianceGridContent {
+        width: initial;
+        border-radius: 0;
+    }
+    .indiaMapsectionInner {
+        flex-direction: column-reverse;
+        justify-content: center;
+        text-align: center;
+    }
+    .indiaMapsectionImg {
+        width: 100%;
+        margin: 30px auto 0;
+        text-align: center;
+    }
+    .indiaMapsectionImg img {
+        max-height: initial;
+        max-width: 100%;
+    }
+    .indiaMapsectionContent {
+        width: 100%;
+    }
+    .indiaMapsection {
+        padding: 40px 0;
+    }
+    .indiaMapsectionImg img,
+    .indiaMapsectionImg:hover img {
+        transform: scale(1);
+    }
+}
+
+@media (max-width:767px) {
+    .complianceGridContent {
+        padding: 30px;
+    }
+    .complianceGridContent h3 {
+        font-size: 26px;
+    }
+    .indiaMapsectionContent h2 {
+        font-size: 36px;
+    }
+    .indiaMapsectionContent h2 span {
+        font-size: 24px;
+    }
+}
+
+@media (max-width:580px) {
+    .countryPage .countryGst.countryGstAlt .countryGstImg img {
+        padding: 20px
+    }
+    .countryPage .countryGstImg,
+    .countryPage .countryGst.countryGstAlt .countryGstImg {
+        margin-bottom: 30px;
+    }
+    .countryPage .countryGst .countryGstImg img,
+    .countryPage .countryGst.countryGstAlt .countryGstImg img {
+        box-shadow: 0px 5px 20px 0px rgb(0 0 0 / 20%);
+    }
+    .countryPage .countryGst,
+    .countryPage .countryGst.countryGstAlt {
+        padding: 50px 0;
+    }
+    .complianceGridsection {
+        padding: 30px 0;
+    }
+    .complianceGridContent {
+        padding: 30px 20px;
+    }
+    .indiaMapsectionContent h2 {
+        font-size: 30px;
+    }
+    .indiaMapsectionContent h2 span {
+        font-size: 20px;
+    }
+    .indiaMapsection {
+        padding: 20px 0 40px;
+    }
+}
+
+@media (max-width:479px) {
+    .complianceGrid {
+        box-shadow: none;
+        margin: 20px 0;
+    }
+    .complianceGridImg {
+        border-radius: 10px 10px 0 0;
+        border: 1px solid #e5e5e5;
+    }
+    .complianceGridContent h3 {
+        font-size: 22px;
+    }
+    .indiaMapsectionImg img {
+        filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.3));
+    }
+}
+
+@media (max-width:359px) {
+    .indiaMapsectionContent h2 {
+        font-size: 28px;
+    }
+    .indiaMapsectionContent h2 span {
+        font-size: 19px;
+    }
+}
+
+.header-logo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: #fff;
+    height: initial;
+    padding: 0;
+    z-index: 1;
+    position: relative;
+    margin: 0;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.header-logo.countryheader {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    /*margin-right: 230px;*/
+}
+
+.header-logo.countryheader .discountCallDesktop img {
+    max-width: 35px;
+}
+
+.header-logo.countryheader p.discountCallDesktop {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-logo a {
+    color: #fff;
+    height: initial;
+    padding: 0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 1.675rem;
+}
+
+.header-logo img {
+    max-width: 48px;
+    max-height: initial !important;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 10px 0 0;
+}
+
+.header-logo .discountCallDesktop span {
+    font-size: 25px;
+    /*vertical-align: bottom;*/
+    /*padding-right: 5px;*/
+    /*font-size: 26px;
+    line-height: 10px;
+    display: block;*/
+}
+
+.header-logo small {
+    font-size: 11px;
+    /*color: #4b4f65;*/
+    color: #fff;
+    line-height: 20px;
+    display: block;
+}
+
+a.discountCallDesktop {
+    /*font-size: 16px;
+    line-height: 1;
+    color: #fff;*/
+}
+
+.fblContact {
+    position: relative;
+    margin: 10px 0 0;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+}
+
+.fblContact a {
+    color: #98dcff;
+    line-height: 1;
+}
+
+.fblContact a:hover {
+    color: #fff;
+}
+
+.fblContact img {
+    max-width: 22px;
+}
+
+.countryPage .countryBanner {
+    padding: 20px 0 120px;
+    background: #15263c;
+    background: linear-gradient(to bottom, #15263c 60%, #15263c 100%);
+}
+
+.countryBanner:before {
+    content: "";
+    background: #fff url(../images/main-banner.jpg) no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: skewY(-3deg);
+    transform-origin: 0;
+    left: 0;
+    top: -10px;
+    right: 0;
+    background-size: cover;
+    opacity: .2;
+}
+
+.countryPage .countryBannerInner {
+    justify-content: space-between;
+    align-items: center;
+    /*margin-top: 10px;*/
+}
+
+.countryPage .countryBannerInner .countryBannerContent {
+    width: calc(100% - 400px);
+}
+
+.countryBanner-text {
+    margin: 50px 0 0;
+}
+
+.countryBannerInner .country-subtitle {
+    margin: 0 0 10px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2em;
+    letter-spacing: .02em;
+    color: #98dcff;
+}
+
+.country-title {
+    font-size: 42px;
+    line-height: 1.3em;
+    margin: 0;
+    font-weight: 600;
+    text-shadow: 0px 3px 2px rgb(0 0 0 / 20%);
+}
+
+.country-title span {
+    color: #97cc4b;
+    display: block;
+    font-size: 24px;
+    line-height: 1.4em;
+    font-weight: 700;
+    letter-spacing: .03em;
+    text-transform: uppercase;
+    margin: 10px 0 0;
+    text-shadow: none;
+}
+
+.countryPage .countryBannerText {
+    margin: 30px 0 0;
+    font-size: 24px;
+    font-weight: 600;
+    color: #98dcff;
+}
+
+.countryClients h2 {
+    font-weight: 600;
+}
+
+.bannerFeatures {
+    margin: 50px 0 0;
+}
+
+.bfOuter {
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+}
+
+.bfBox {
+    position: relative;
+    width: 50%;
+    padding: 0 10px 0 60px;
+    margin: 0 0 40px;
+    box-sizing: border-box;
+}
+
+.bfBox:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    background-image: url(../images/banner-icons.png);
+    background-repeat: no-repeat;
+    transition: all .3s ease;
+    margin: 0;
+}
+
+.bfBox.bfBox1 .bfIcon,
+.bfBox.bfBox1:before {
+    background-position: 0 0;
+}
+
+.bfBox.bfBox2 .bfIcon,
+.bfBox.bfBox2:before {
+    background-position: -45px 0;
+}
+
+.bfBox.bfBox3 .bfIcon,
+.bfBox.bfBox3:before {
+    background-position: 0 -45px;
+}
+
+.bfBox.bfBox4 .bfIcon,
+.bfBox.bfBox4:before {
+    background-position: 0 0;
+    background-image: url(../images/icons/icn-chart-dark.png);
+    background-size: 45px 45px;
+}
+
+.bfText {
+    font-size: 22px;
+    line-height: 1;
+    font-weight: 500;
+    margin: 0;
+}
+
+.bfText span {
+    display: block;
+    color: #ccc;
+    margin-top: 6px;
+    font-size: 13px;
+    line-height: 1.2;
+    letter-spacing: .02em;
+}
+
+.countryBanner_partners {
+    margin: 30px 0 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.country-img.country-img-yanolja,
+.country-img.country-img-booking,
+.country-img.country-img-rocket {
+    background: #FFF;
+    border-radius: 6px;
+    text-align: center;
+    min-height: 80px;
+}
+
+.country-img.country-img-yanolja img,
+.country-img.country-img-booking img,
+.country-img.country-img-rocket img {
+    max-width: 140px;
+}
+
+.country-img:nth-of-type(1) {
+    margin-left: 0;
+}
+
+.country-img {
+    width: calc(33% - 15px);
+    max-width: 215px;
+    margin: 0 0 0 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.country-img img {
+    margin: 0;
+    max-width: 100%;
+}
+
+.countryBannerInner .countryBanner-Form {
+    width: 370px;
+}
+
+.generalForm.countryFormIndia {
+    padding: 0;
+    min-height: 400px;
+}
+
+.countryBannerInner .generalForm .hs-submit {
+    margin: 20px 0 0;
+}
+
+#countryForm.generalForm .hs-form-field.hs-fieldtype-booleancheckbox {
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+#countryForm.generalForm .hs-form-field.hs-fieldtype-booleancheckbox .hs-error-msgs {
+    position: relative;
+    margin-top: 0;
+}
+
+#countryForm.generalForm .hs-form-field.hs-fieldtype-booleancheckbox .hs-error-msgs .hs-error-msg {
+    padding-top: 5px;
+}
+
+.country_form {
+    position: relative;
+    font-size: initial;
+    padding: 20px;
+    max-width: 370px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    background: #FFF;
+    box-shadow: 0 10px 40px -4px rgb(0 0 0 / 50%);
+    /*min-height: 400px;*/
+}
+
+#countryForm .hs_error_rollup {
+    display: none !important;
+}
+
+.generalForm.freeVisit .hs_error_rollup {
+    display: none !important;
+}
+
+.country_form .hs_whatsapp.hs-form-field {
+    display: none;
+}
+
+.country_form .hs-form-field {
+    margin: 13px 0 35px;
+    text-align: left;
+    position: relative;
+    transition: all .3s ease;
+}
+
+.country_form .hs-form-field label {
+    padding: 0 4px 4px;
+    margin: 0;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: initial;
+    display: inline-block;
+    vertical-align: middle;
+    color: #33475b;
+    position: absolute;
+    top: -10px;
+    left: 6px;
+    z-index: 3;
+    background: #FFF;
+    transition: all .3s ease;
+}
+
+.country_form .hs-form-field label {
+    padding: 0 4px 4px;
+    margin: 0;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: initial;
+    display: inline-block;
+    vertical-align: middle;
+    color: #33475b;
+    position: absolute;
+    top: -10px;
+    left: 6px;
+    z-index: 3;
+    background: #FFF;
+    transition: all .3s ease;
+}
+
+.country_form .hs-form-field label .hs-form-required {
+    color: #f98181;
+    margin-left: 5px;
+    vertical-align: top;
+    font-size: 11px;
+}
+
+.country_form .hs-form-field .input .hs-input {
+    padding: 15px 15px 9px;
+    border-radius: 4px;
+    border: 1px solid #cbd4de;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2em;
+    transition: all .3s ease;
+    background-color: #fff;
+    color: #33475b;
+    display: block;
+    text-align: left;
+    vertical-align: middle;
+    width: 100%;
+    outline: 0;
+}
+
+.hs-form-field .input .hs-input.invalid.error {
+    border-color: #f98181;
+}
+
+.countryFormIndia .hs-submit .hs-button {
+    font-weight: 600;
+}
+
+.countryPage .home-partner {
+    text-align: center;
+    padding: 50px 0 30px;
+}
+
+.countryPage .home-partner header {
+    margin: 0 0 15px;
+}
+
+.countryPage .home-partner header h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    margin: 0 0 30px 0;
+}
+
+.countryPage .home-partner .owl-wrapper-outer {
+    width: calc(100% - 20px);
+    background: #FFFF;
+    box-shadow: 0 15px 30px -20px rgb(0 0 0 / 20%);
+    border-radius: 4px;
+    border: 1px solid #e8e8e8;
+    margin: 0 10px 20px;
+    max-height: 120px;
+    overflow: hidden;
+}
+
+.countryPage .home-partner .owl-theme .owl-controls {
+    display: inline-block;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.countryPage .benefit-section {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    padding: 20px 0 60px;
+}
+
+.countryPage .benefit-section.bs-sec3 {
+    padding: 60px 0 0;
+}
+
+.countryPage .benefit-section.bs-sec4 {
+    padding-top: 80px;
+}
+
+.secload.changed {
+    opacity: 1;
+}
+
+.secload {
+    /*-webkit-transition: opacity 0.5s;
+    transition: opacity 0.5s;*/
+    opacity: 1;
+}
+
+.countryPage .bs-outer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.countryPage .bs-image {
+    width: 27%;
+    margin: 0;
+    text-align: right;
+    position: absolute;
+    right: 7%;
+    top: 45%;
+    transform: translateY(-50%);
+}
+
+.countryPage .bsImg {
+    width: 800px;
+    height: 575px;
+    background: url(../images/icons/homespriteSnap.png) no-repeat 0px 0px;
+    display: inline-block;
+}
+
+.countryPage .bsImg.bsImg-hms {
+    background-position: 0px 0px;
+    transform-origin: left top;
+    transform: scale(1);
+}
+
+.countryPage .bs-content {
+    width: 73%;
+    position: relative;
+}
+
+.countryPage .bs-content h3 {
+    margin: 0 0 5px;
+    color: #333333;
+    position: relative;
+    left: 0;
+    /*font-family: 'Open Sans',sans-serif;*/
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.2em;
+    padding: 0;
+    width: 100%;
+}
+
+.countryPage .bs-content p.subHeading {
+    margin: 0 0 40px;
+    color: #666666;
+    font-size: 15px;
+    letter-spacing: 0.03em;
+}
+
+.countryPage .feature_points {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.countryPage .feature_points li:nth-of-type(2n+1) {
+    margin-left: 0;
+}
+
+.countryPage .feature_points li {
+    margin: 0 0 30px 30px;
+    padding: 0;
+    position: relative;
+    width: calc(50% - 30px);
+}
+
+.countryPage .feature_points li h4:after {
+    /*content: '\f107';
+    position: absolute;
+    right: 0;
+    font-family: 'FontAwesome';
+    transition: all 0.3s ease;*/
+}
+
+.countryPage .feature_points li.show h4:after {
+    /*content: '\f106';
+    transition: all 0.3s ease;*/
+}
+
+.countryPage .feature_points li .icn {
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    top: 5px;
+    text-align: center;
+    /*border-radius: 4px;*/
+    transition: all 0.3s ease;
+}
+
+.countryPage .hicn.hicn-manage-reservations {
+    background-position: -118px -363px;
+}
+
+.countryPage .hicn.hicn-flexible-rate-management {
+    background-position: -944px -1038px;
+}
+
+.countryPage .hicn.hicn-user-roles {
+    background-position: -188px -363px;
+}
+
+.countryPage .hicn.hicn-payment-gateway {
+    background-position: -782px -1043px;
+}
+
+.countryPage .hicn.hicn-guest-self-service {
+    background-position: -325px -363px;
+}
+
+.countryPage .hicn.hicn-hotel-mobile-app {
+    background-position: -1065px -363px;
+}
+
+.countryPage .hicn.hicn-cashiering-center {
+    background-position: -571px -433px;
+}
+
+.countryPage .hicn.hicn-credit-card-center {
+    background-position: -843px -433px;
+}
+
+.countryPage .hicn.hicn-centralized-credit-card {
+    background-position: -854px -966px;
+}
+
+.countryPage .hicn {
+    background-image: url(../images/icons/icons_sprites.png);
+    background-position: -118px -363px;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    display: block;
+    transform: scale(1);
+}
+
+.countryPage .feature_points li h4 {
+    margin: 0 0 0 70px;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
+    /*font-family: 'Open Sans',sans-serif;*/
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.countryPage .feature_points li:hover h4,
+.countryPage .feature_points li.show h4 {
+    color: #4965f9;
+}
+
+.countryPage .feature_points li p {
+    margin: 0 0 0 70px;
+    display: block;
+    font-size: 14px;
+    line-height: 1.5em;
+    /*transition: all 0.3s ease;*/
+}
+
+.countryPage .feature_points li p {
+    /*display: none;*/
+}
+
+.countryPage .feature_points li.show p {
+    /*display: block;*/
+}
+
+.countryPage .feature_points.absolutePoints li p {
+    display: block !important;
+}
+
+.countryPage .feature_points.absolutePoints li h4 {
+    cursor: default;
+}
+
+.countryPage .feature_points.absolutePoints li:hover h4 {
+    color: #333;
+}
+
+.countryPage .bs-sec1 .hicn,
+.countryPage .bs-sec2 .hicn,
+.countryPage .bs-sec3 .hicn,
+.countryPage .bs-sec4 .hicn {
+    transform: scale(0.7);
+}
+
+.countryPage .bs-sec1 .feature_points li .icn,
+.countryPage .bs-sec2 .feature_points li .icn,
+.countryPage .bs-sec3 .feature_points li .icn,
+.countryPage .bs-sec4 .feature_points li .icn {
+    top: -10px;
+}
+
+.countryPage .bs-sec1 .feature_points li.show .hicn,
+.countryPage .bs-sec2 .feature_points li.show .hicn,
+.countryPage .bs-sec3 .feature_points li.show .hicn,
+.countryPage .bs-sec4 .feature_points li.show .hicn {
+    transform: scale(1);
+}
+
+.countryPage .bs-sec1 .feature_points li.show .icn,
+.countryPage .bs-sec2 .feature_points li.show .icn,
+.countryPage .bs-sec3 .feature_points li.show .icn,
+.countryPage .bs-sec4 .feature_points li.show .icn {
+    top: 5px;
+}
+
+.countryPage .bs-content .bs-btnouter {
+    margin: 30px 0 60px 60px;
+}
+
+.countryPage .benefit-section.bs-sec1 .bs-content .bs-btnouter {
+    margin-bottom: 0;
+}
+
+.countryPage .bs-btnouter .btn {
+    position: relative;
+    transition: all 0.3s ease;
+    padding: 12px 20px;
+    font-weight: 600;
+    box-shadow: none;
+    margin-left: 5px;
+    border: 1px solid #4965f9;
+    background-color: #4965f9;
+}
+
+.countryPage .bs-btnouter .btn.btn-secondary {
+    background: #f4f4f7;
+    color: #4965f9;
+    box-shadow: none;
+    border: 1px solid #cbcbda;
+}
+
+.countryPage .bs-btnouter .btn:after {
+    content: "\f061";
+    font-family: FontAwesome;
+    margin: 0 0 0 10px;
+    transform: translateX(0px);
+    display: inline-block;
+    position: relative;
+}
+
+.countryPage .bs-btnouter .btn.btn-secondary:hover,
+.countryPage .bs-btnouter .btn.btn-secondary:focus {
+    box-shadow: 0 3px 5px -2px rgb(0 0 0 / 20%);
+}
+
+.countryPage .bs-btnouter .btn.btn-primary:hover,
+.countryPage .bs-btnouter .btn.btn-primary:focus {
+    box-shadow: 0 3px 8px -2px rgb(0 0 0 / 40%);
+}
+
+.countryPage .bs-btnouter .btn:hover:after {
+    animation: bArrowmoving 1s ease infinite;
+}
+
+@keyframes bArrowmoving {
+    0% {
+        left: 0;
+    }
+    50% {
+        left: 5px;
+    }
+    100% {
+        left: 0;
+    }
+}
+
+.countryPage .benefit-section.bs-sec1 #pattern1 {
+    position: absolute;
+    width: 600px;
+    height: 80%;
+    display: block;
+    background-color: #4965f9;
+    right: -29%;
+    top: 7%;
+    z-index: -1;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    border-radius: 200px;
+}
+
+.countryPage .benefit-section.bs-sec2 .bs-outer,
+.countryPage .benefit-section.bs-sec4 .bs-outer {
+    flex-direction: row-reverse;
+}
+
+.countryPage .bs-sec2 .bsImg-cmOuter,
+.countryPage .bs-sec4 .bsImg-cmOuter {
+    right: auto;
+    left: -28%;
+    top: 34%;
+    text-align: left;
+    transform: translateY(-50%);
+}
+
+.countryPage .bs-sec4 .bsImg-cmOuter {
+    top: 41%;
+}
+
+.countryPage .benefit-section.bs-sec2 #pattern1,
+.countryPage .benefit-section.bs-sec4 #pattern1 {
+    position: absolute;
+    width: 600px;
+    height: 80%;
+    display: block;
+    background-color: #4965f9;
+    left: -28%;
+    top: 15px;
+    z-index: -1;
+    transform: rotate(45deg);
+    border-radius: 100px;
+}
+
+.countryPage .bsImg.bsImg-cm {
+    background-position: -830px 80px;
+    transform-origin: left top;
+    transform: scale(1);
+}
+
+.countryPage .bsImg.bsImg-em {
+    background-position: -3361px 80px;
+    transform-origin: left top;
+    transform: scale(1);
+}
+
+.countryPage .hicn.hicn-connectivity {
+    background-position: -238px -429px;
+}
+
+.countryPage .hicn.hicn-inventory-distribution {
+    background-position: -505px -430px;
+}
+
+.countryPage .hicn.hicn-rate-parity {
+    background-position: -582px -363px;
+}
+
+.countryPage .hicn.hicn-unlimited-bookings {
+    background-position: -652px -363px;
+}
+
+.countryPage .hicn.hicn-yield-management {
+    background-position: -721px -362px;
+}
+
+.countryPage .hicn.hicn-inventory-distribution {
+    background-position: -640px -888px;
+}
+
+.countryPage .hicn.hicn-creditcard-verification {
+    background-position: -706px -1042px;
+}
+
+.countryPage .hicn.hicn-secured-bookings {
+    background-position: -632px -735px;
+}
+
+.countryPage .hicn.hicn-OTA-promotion {
+    background-position: -713px -577px;
+}
+
+.countryPage .hicn.hicn-dashboard-interface {
+    background-position: -926px -735px;
+}
+
+.countryPage .hicn.hicn-Booking-pattern {
+    background-position: -855px -363px;
+}
+
+.countryPage .hicn.hicn-Intelligent-pricing {
+    background-position: -788px -574px;
+}
+
+.countryPage .hicn.hicn-Competitor-rate {
+    background-position: -907px -431px;
+}
+
+.countryPage .hicn.hicn-property-insights {
+    background-position: -861px -652px;
+}
+
+.countryPage .hicn.hicn-Extensive-reporting {
+    background-position: -905px -495px;
+}
+
+.countryPage .benefit-section.bs-sec3 .bs-outer {
+    flex-direction: row;
+}
+
+.countryPage .bsImg.bsImg-be {
+    background-position: -1660px 0px;
+    transform-origin: left top;
+    transform: scale(1);
+}
+
+.countryPage .benefit-section.bs-sec3 #pattern1 {
+    position: absolute;
+    width: 600px;
+    height: 80%;
+    display: block;
+    background-color: #4965f9;
+    right: -27%;
+    top: 30px;
+    z-index: -1;
+    transform: rotate(45deg);
+    border-radius: 200px;
+}
+
+.countryPage .hicn.hicn-commission-free-bookings {
+    background-position: -366px -430px;
+}
+
+.countryPage .hicn.hicn-hotel-website {
+    background-position: -713px -655px;
+}
+
+.countryPage .hicn.hicn-google-hotel-ads-integration {
+    background-position: -500px -500px;
+}
+
+.countryPage .hicn.hicn-packages-promotion {
+    background-position: -500px -500px;
+}
+
+.countryPage .hicn.hicn-upsell-services {
+    background-position: -975px -432px;
+}
+
+.countryPage .hicn.hicn-use-widgets {
+    background-position: -1042px -505px;
+}
+
+.countryPage .hicn.hicn-chatbot {
+    background-position: -775px -433px;
+}
+
+.countryPage .hicn.hicn-centralised-data {
+    background-position: -436px -433px;
+}
+
+.countryPage .supportSection {
+    padding: 60px 0 50px;
+    background: #f4f5f5;
+    /*background: -moz-linear-gradient(top,#ffffff 0%,#f4f5f7 80%);
+    background: -webkit-linear-gradient(top,#ffffff 0%,#f4f5f7 80%);
+    background: linear-gradient(to bottom,#ffffff 0%,#f4f5f7 80%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#f4f5f7',GradientType=0);*/
+    border-bottom: 1px solid #e4e4e4;
+    margin-top: 30px;
+}
+
+.countryPage .supportSectionInner .slHeader {
+    margin: 0 auto 40px;
+    text-align: center;
+}
+
+.countryPage .supportSection .slHeader h2 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.2em;
+}
+
+.countryPage .supportSection .slHeader p {
+    margin: 10px 0 0;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.6em;
+}
+
+.countryPage .supportlistOuter {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.countryPage .supportList {
+    width: 25%;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.countryPage .supportList a,
+.countryPage .supportList a:visited {
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+.countryPage .supportList .slImg {
+    position: relative;
+    display: block;
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+    border: 1px solid #d8d8d8;
+    border-radius: 50%;
+    padding: 6px;
+    box-shadow: 0 3px 12px -2px rgb(0 0 0 / 20%);
+    transition: all 0.3s ease;
+    transform: scale(1);
+}
+
+.countryPage .supportList .slImg:before {
+    content: "";
+    width: 150px;
+    height: 150px;
+    background: url(../images/icons/homesprite-services.png) no-repeat -48px -23px;
+    display: block;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+}
+
+.countryPage .supportList .slImg.slImg01:before {
+    background-position: -48px -23px;
+    left: 5px;
+}
+
+.countryPage .supportList .slImg.slImg02:before {
+    background-position: -347px -23px;
+}
+
+.countryPage .supportList .slImg.slImg03:before {
+    background-position: -647px -23px;
+}
+
+.countryPage .supportList .slImg.slImg04:before {
+    background-position: -948px -23px;
+}
+
+.countryPage .supportList .slText {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.4em;
+    margin: 30px auto 0;
+}
+
+.countryPage .supportList .slText span {
+    display: block;
+}
+
+.countryPage .supportList:hover .slText,
+.countryPage .supportList:focus .slText {
+    color: #4b67f9;
+}
+
+.countryPage .supportList:hover .slImg {
+    box-shadow: 0 8px 20px -5px rgb(0 0 0 / 30%);
+    color: #4b67f9;
+}
+
+.countryPage .countryBtmctaContent h2 span.ctaHead {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.countryPage .countryBtmctaContent h2 span {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.countryPage .trialReviews h2,
+.countryPage .faqSection h2 {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.trialFooter {
+    padding: 15px 0;
+    background: #efefef;
+    text-align: center;
+    border-top: 1px solid #e6e6e6;
+}
+
+.trialFooter .copy-text {
+    line-height: 1.4em;
+    font-size: 14px;
+}
+
+.darkSection {
+    margin: 0 0 80px;
+    background: #4965f9;
+    padding: 60px 0 20px;
+    color: #FFF;
+    background: linear-gradient(135deg, #4965f9 0%, #4eb1e0 100%);
+}
+
+.darkSectionInner {
+    display: flex;
+}
+
+.darkSectionImgInner {
+    margin-bottom: -20px;
+}
+
+.darkSectionImgInner:before {
+    content: "";
+    background: url("../images/icons/freetrial-sprite.png") no-repeat -580px -284px;
+    width: 325px;
+    height: 370px;
+    display: block;
+}
+
+.darkSectionInner .darkSectionText {
+    width: calc(100% - 360px);
+}
+
+.darkSection h2 {
+    margin: 0 0 20px;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.darkSection p {
+    margin: 0;
+    font-size: 15px;
+}
+
+.darkSection .trialbtnOuter {
+    margin: 30px 0 0;
+}
+
+.darkSection .trialbtnOuter .btn.btn-info {
+    border-color: #FFF;
+    color: #3e4154;
+    background: #FFF;
+    font-weight: 600;
+}
+
+.darkSection .trialbtnOuter .btn.btn-primary {
+    background: #ffc252;
+    border-color: #ffc252;
+    color: #000;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.darkSectionImg {
+    width: 300px;
+    text-align: right;
+    margin: 0 0 0 60px;
+}
+
+.btn-video {
+    position: relative;
+    padding-left: 40px;
+}
+
+.btn-video:before {
+    content: "\f144";
+    font-family: fontawesome;
+    font-size: 24px;
+    line-height: 1;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+
+/* Country Flag */
+
+.adsCountryBody .header-logo .discountCallDesktop .countryLang {
+    font-size: 20px;
+    /*margin-right: 10px;*/
+    font-weight: 400;
+}
+
+.adsCountryBody .discountCallDesktop .countryLang.langHallo {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.adsCountryBody .discountCallDesktop .countryFlags {
+    width: 35px;
+    height: 24px;
+    display: inline-block;
+    background-image: url(../images/country-flag.png);
+    background-repeat: no-repeat;
+    margin: 0px 10px 0 10px;
+}
+
+.adsCountryBody .discountCallDesktop .countryFlags.flgIndia {
+    background-position: -501px -104px;
+}
+
+.adsCountryBody .discountCallDesktop .countryFlags.flgThailand {
+    background-position: -177px -104px;
+}
+
+.adsCountryBody .discountCallDesktop .countryFlags.flgSouthAfrica {
+    background-position: -15px -105px;
+}
+
+.adsCountryBody .discountCallDesktop .countryFlags.flgUK {
+    background-position: -339px -105px;
+}
+
+.adsCountryBody .discountCallDesktop .countryFlags.flgMexico {
+    background-position: -500px -21px;
+}
+
+.adsCountryBody .discountCallDesktop .countryFlags.flgSriLanka {
+    background-position: -67px -104px;
+    width: 37px;
+}
+
+.adsCountryBody .discountCallDesktop .countryFlags.flgTanzania {
+    background-position: -123px -104px;
+}
+
+.adsCountryBody .discountCallDesktop .countryFlags.flgGhana {
+    background-position: -123px -21px;
+}
+
+.adsCountryBody .discountCallDesktop .countryFlags.flgMorocco {
+    background-position: -15px -65px;
+}
+
+.adsCountryBody .discountCallDesktop .countryFlags.flgKenya {
+    background-position: -284px -20px;
+}
+
+.adsCountryBody .discountCallDesktop .countryFlags.flgMaldives {
+    background-position: -393px -20px;
+}
+
+.adsCountryBody .discountCallDesktop .countryFlags.flgIndonesia {
+    background-position: -177px -21px;
+}
+
+.adsCountryBody .discountCallDesktop .countryFlags.flgNigeria {
+    background-position: -231px -66px;
+}
+
+.adsCountryBody .discountCallDesktop .countryFlags.flgSaudiArabia {
+    background-position: -447px -66px;
+}
+
+.adsCountryBody .discountCallDesktop .countryFlags.flgZimbabwe {
+    background-position: -447px -105px;
+}
+
+.adsCountryBody .discountCallDesktop .countryFlags.flgUAE {
+    background-position: -231px -105px;
+}
+
+.adsCountryBody .discountCallDesktop .countryFlags.flgPakistan {
+    background-position: -339px -65px;
+}
+
+.adsCountryBody .discountCallDesktop .countryFlags.flgOman {
+    background-position: -289px -66px;
+}
+
+.adsCountryBody .discountCallDesktop .countryFlags.flgNepal {
+    background-position: -175px -59px;
+    height: 37px;
+}
+
+.adsCountryBody .discountCallDesktop .countryFlags.flgUganda {
+    background-position: -284px -106px;
+}
+
+.adsCountryBody .discountCallDesktop .countryFlags.flgRwanda {
+    background-position: -392px -65px;
+}
+
+.adsCountryBody .discountCallDesktop .countryFlags.flgSenegal {
+    background-position: -501px -64px;
+}
+
+.adsCountryBody .discountCallDesktop .countryFlags.flgBotswana {
+    background-position: -15px -21px;
+}
+
+.adsCountryBody .discountCallDesktop .countryFlags.flgCambodia {
+    background-position: -69px -21px;
+}
+
+.adsCountryBody .discountCallDesktop .countryFlags.flgVietnam {
+    background-position: -393px -106px;
+}
+
+.adsCountryBody .discountCallDesktop .countryFlags.flgMyanmar {
+    background-position: -70px -66px;
+}
+
+.adsCountryBody .discountCallDesktop .countryFlags.flgMalawi {
+    background-position: -338px -21px;
+}
+
+.adsCountryBody .discountCallDesktop .countryFlags.flgJordan {
+    background-position: -231px -20px;
+}
+
+.adsCountryBody .discountCallDesktop .countryFlags.flgMauritius {
+    background-position: -447px -20px;
+}
+
+.adsCountryBody .discountCallDesktop .countryFlags.flgNamibia {
+    background-position: -123px -65px;
+}
+
+.countryPage.namibiaPage .clientlogo_container .owl-wrapper-outer, .countryPage.zambiaPage .clientlogo_container .owl-wrapper-outer {
+    margin: 0 auto;
+    max-width: 75%;
+}
+
+.countryPage.senegalPage .clientlogo_container .owl-wrapper-outer {
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+.countryCTAsection {
+    background: #323c4a;
+    color: #FFF;
+    position: relative;
+    padding: 40px 0;
+}
+
+.countryCTAsectionInner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+    flex-wrap: wrap;
+}
+
+.countryCTAsectionContent {
+    width: calc(100% - 230px);
+}
+
+.countryCTATitle {
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1.3;
+}
+
+.countryCTATitle span {
+    display: block;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 1;
+    margin: 10px 0 0;
+    letter-spacing: 0.05em;
+}
+
+.countryCTAsectionBtn {
+    text-align: right;
+    margin: 0 0 0 50px;
+    width: 170px;
+}
+
+.countryCTAsectionBtn .btn {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 12px 25px;
+    background: #ffc107;
+    color: #000;
+}
+
+.countryCTAsectionBtn .btn:hover,
+.countryCTAsectionBtn .btn:focus {
+    background: #ffc107;
+    color: #000;
+}
+
+.country_form .hs-form-field.hs_opt_for {
+    margin: 13px 0 35px;
+    text-align: left;
+    position: relative;
+    transition: all .3s ease;
+    padding: 15px 15px 9px;
+    border-radius: 4px;
+    border: 1px solid #cbd4de;
+}
+
+.country_form .hs-form-field.hs_opt_for label {
+    padding: 0 4px 4px;
+    margin: 0;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: initial;
+    display: inline-block;
+    vertical-align: middle;
+    color: #33475b;
+    position: absolute;
+    top: -10px;
+    left: 6px;
+    z-index: 3;
+    background: #FFF;
+    transition: all .3s ease;
+}
+
+.country_form .hs-form-field.hs_opt_for .input {
+    display: inline-block;
+}
+
+.country_form .hs-form-field.hs_opt_for ul.inputs-list.multi-container {
+    position: relative;
+}
+
+.country_form .hs-form-field.hs_opt_for ul.inputs-list.multi-container li.hs-form-checkbox label.hs-form-checkbox-display {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+}
+
+.country_form .hs-form-field.hs_opt_for .hs-error-msgs label {
+    padding: 0;
+    margin: 0;
+    color: #f98181;
+    font-size: 12px;
+    line-height: 1.2em;
+    font-weight: 400;
+    position: relative;
+    left: 0;
+    top: 0;
+    transition: all 0.3s ease;
+}
+
+.countryFormHead {
+    font-size: 18px;
+    line-height: 1.3;
+    padding: 15px;
+}
+
+.countryFormHead span {
+    font-size: 14px;
+    line-height: 1;
+    display: block;
+    margin-top: 8px;
+}
+
+#countryAdslogo.navbar-brand { display: inline-block; height: initial; padding: 0; margin-bottom: 30px; float: none; }
+#countryAdslogo.navbar-brand img { width: 40px; height: 40px; display: inline-block; vertical-align: middle; }
+#countryAdslogo.navbar-brand .header-logo { display: inline-block; vertical-align: middle; }
+#countryAdslogo.navbar-brand .header-logo small {color: #98dcff;}
+#countryAdslogo.navbar-brand .header-logo span {font-size: 26px;}
+.adsCountryBody .countryPage .countryBanner { padding-top: 30px; }
+.adsCountryBody .countryBanner-text { margin-top: 0; }
+.adsCountryBody.popupPage.modal-open .modal-backdrop.fade.in { display: none !important; }
+
+
+
+
+/*---------- Media CSS ----------*/
+
+@media (max-width:1920px) {
+    .countryPage .bs-sec2 .bsImg-cmOuter,
+    .countryPage .bs-sec4 .bsImg-cmOuter {
+        left: -12%;
+    }
+}
+
+@media (max-width:1769px) {
+    .countryPage .bs-sec2 .bsImg-cmOuter,
+    .countryPage .bs-sec4 .bsImg-cmOuter {
+        left: -17%;
+    }
+}
+
+@media (max-width:1600px) {
+    .countryPage .bs-sec2 .bsImg-cmOuter,
+    .countryPage .bs-sec4 .bsImg-cmOuter {
+        left: -20%;
+    }
+}
+
+@media (max-width:1520px) {
+    .countryPage .bs-sec2 .bsImg-cmOuter,
+    .countryPage .bs-sec4 .bsImg-cmOuter {
+        left: -22%;
+    }
+}
+
+@media (max-width:1470px) {
+    .countryPage .bs-sec2 .bsImg-cmOuter,
+    .countryPage .bs-sec4 .bsImg-cmOuter {
+        left: -28%;
+    }
+}
+
+@media (max-width:1400px) {}
+
+@media (max-width:1300px) {
+    .countryPage .bs-sec2 .bsImg-cmOuter,
+    .countryPage .bs-sec4 .bsImg-cmOuter {
+        left: -22%;
+    }
+    .countryPage .bsImg.bsImg-hms,
+    .countryPage .bsImg.bsImg-cm,
+    .countryPage .bsImg.bsImg-be,
+    .countryPage .bsImg.bsImg-em {
+        transform-origin: left center;
+        transform: scale(0.8);
+    }
+    .countryPage .benefit-section.bs-sec1 #pattern1,
+    .countryPage .benefit-section.bs-sec3 #pattern1 {
+        border-radius: 100px;
+        top: 10%;
+        height: 70%;
+        right: -33%;
+    }
+    .countryPage .benefit-section.bs-sec2 #pattern1,
+    .countryPage .benefit-section.bs-sec4 #pattern1 {
+        left: -33%;
+    }
+    .darkSection {
+        margin-bottom: 60px;
+    }
+    .exitPopup.indiaExitpopup.modal.in .popupDesign.indiaExitpopupDesign {
+        overflow-y: auto;
+    }
+    .popupDesign.indiaExitpopupDesign .pdInner {
+        margin: 50px auto;
+    }
+}
+
+@media (max-width:1199px) {
+    .countryPage .bs-sec2 .bsImg-cmOuter,
+    .countryPage .bs-sec4 .bsImg-cmOuter {
+        left: -10%;
+    }
+    .country-title {
+        font-size: 32px;
+    }
+    .countryPage .countryBannerText {
+        font-size: 22px;
+    }
+    .countryBannerInner .country-subtitle {
+        font-size: 18px;
+    }
+    .country-title span {
+        font-size: 22px;
+    }
+    .countryPage .bs-content h3,
+    .countryPage .home-partner header h2,
+    .countryPage .supportSection .slHeader h2,
+    .countryPage .trialReviews h2,
+    .countryPage .faqSection h2 {
+        font-size: 28px;
+    }
+    .countryPage .supportList .slText {
+        font-size: 14px;
+    }
+    .countryPage .bsImg.bsImg-hms,
+    .countryPage .bsImg.bsImg-cm,
+    .countryPage .bsImg.bsImg-be,
+    .countryPage .bsImg.bsImg-em {
+        transform-origin: left center;
+        transform: scale(0.6);
+    }
+    .countryPage .benefit-section.bs-sec1 #pattern1,
+    .countryPage .benefit-section.bs-sec2 #pattern1,
+    .countryPage .benefit-section.bs-sec4 #pattern1,
+    .countryPage .benefit-section.bs-sec3 #pattern1 {
+        border-radius: 100px;
+        top: 10%;
+        height: 60%;
+    }
+    .countryPage .benefit-section.bs-sec1 #pattern1,
+    .countryPage .benefit-section.bs-sec3 #pattern1 {
+        right: -40%;
+        top: 20%;
+    }
+    .countryPage .benefit-section.bs-sec2 #pattern1,
+    .countryPage .benefit-section.bs-sec4 #pattern1 {
+        left: -38%;
+        top: -3%;
+    }
+    .complianceGridContent h3 {
+        font-size: 28px;
+    }
+    .countryPage #trialReviews {
+        width: 90%;
+    }
+    .trialReviews .trialReviewsOuter:before {
+        left: -65px;
+    }
+    .countryPage p.trialReviews-text {
+        font-size: 18px;
+    }
+    .countryPage .feature_points li h4 {
+        font-size: 15px;
+    }
+    .bfText {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .darkSectionInner .darkSectionText {
+        width: calc(100% - 340px);
+    }
+    .darkSectionInner {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: flex-end;
+    }
+    .darkSectionImgInner {
+        margin-bottom: -50px;
+    }
+    .darkSectionImg {
+        width: 280px;
+    }
+    .darkSection {
+        padding: 40px 0 50px;
+        margin-bottom: 40px;
+    }
+    .darkSection .trialbtnOuter .btn.btn-info {
+        padding: 10px 20px 10px 40px;
+    }
+    .darkSection .trialbtnOuter .btn {
+        margin: 0;
+    }
+    .darkSection .trialbtnOuter .btn.btn-primary {
+        padding: 10px 20px;
+    }
+    .darkSection h2 {
+        font-size: 28px;
+    }
+    .countryPage .clientlogo_container {
+        margin-bottom: 0;
+    }
+    .countryCTAsectionInner {
+        flex-direction: column;
+    }
+    .countryCTAsectionContent {
+        width: 100%;
+        text-align: center;
+    }
+    .countryCTAsectionBtn {
+        text-align: center;
+        margin: 30px auto 0;
+        width: auto;
+    }
+}
+
+@media (max-width:1100px) {
+    .countryPage .bs-sec2 .bsImg-cmOuter,
+    .countryPage .bs-sec4 .bsImg-cmOuter {
+        left: -18%;
+    }
+}
+
+@media (max-width:1024px) {
+    .countryPage .bs-sec2 .bsImg-cmOuter,
+    .countryPage .bs-sec4 .bsImg-cmOuter {
+        left: -20%;
+    }
+    .countryPage #trialReviews {
+        width: 80%;
+    }
+    .trialReviews .trialReviewsOuter:before {
+        left: -18px;
+    }
+    .countryPage .benefit-section.bs-sec2 #pattern1,
+    .countryPage .benefit-section.bs-sec4 #pattern1 {
+        left: -42%;
+    }
+}
+
+@media (max-width:991px) {
+    .country-title {
+        font-size: 36px;
+    }
+    .header-logo {
+        justify-content: center;
+    }
+    .countryPage .countryBannerInner .countryBannerContent {
+        width: 100%;
+    }
+    .bfText {
+        text-align: left;
+    }
+    .countryBannerInner .countryBanner-Form {
+        margin-top: 30px;
+    }
+    .offcanvas {
+        display: none;
+    }
+    .countryPage .bs-outer,
+    .countryPage .benefit-section.bs-sec3 .bs-outer {
+        flex-direction: column;
+    }
+    .countryPage .bs-image {
+        position: relative;
+        top: 0;
+        transform: translateY(0);
+        left: auto;
+        right: auto;
+        margin: 0 auto 30px;
+        max-height: 260px;
+        width: 400px;
+        max-width: 100%;
+        text-align: center;
+    }
+    .countryPage .benefit-section,
+    .countryPage .benefit-section.bs-sec3,
+    .countryPage .benefit-section.bs-sec4 {
+        padding: 0 0 50px;
+    }
+    .countryPage .bs-content {
+        width: 100%;
+    }
+    .countryPage .bs-content h3 {
+        text-align: center;
+    }
+    .countryPage .bs-content .bs-btnouter {
+        margin: 0px auto;
+        text-align: center;
+    }
+    .countryPage .benefit-section.bs-sec1 #pattern1,
+    .countryPage .benefit-section.bs-sec2 #pattern1,
+    .countryPage .benefit-section.bs-sec4 #pattern1,
+    .countryPage .benefit-section.bs-sec3 #pattern1 {
+        display: none;
+    }
+    .countryPage .bsImg.bsImg-hms {
+        transform: scale(0.36) translateY(0px);
+        transform-origin: left top;
+    }
+    .countryPage .benefit-section.bs-sec2 .bs-outer,
+    .countryPage .benefit-section.bs-sec4 .bs-outer {
+        flex-direction: column;
+    }
+    .countryPage .bs-sec2 .bsImg-cmOuter,
+    .countryPage .bs-sec4 .bsImg-cmOuter {
+        left: 0;
+        top: 0;
+        transform: translateY(0px);
+        max-height: 310px;
+        margin: 0 auto 30px;
+        max-width: 400px;
+    }
+    .countryPage .bsImg.bsImg-hms,
+    .countryPage .bsImg.bsImg-cm,
+    .countryPage .bsImg.bsImg-be,
+    .countryPage .bsImg.bsImg-em {
+        transform: scale(0.5) translateY(0px);
+        transform-origin: left top;
+    }
+    .countryPage .supportList {
+        width: 50%;
+    }
+    .countryPage .supportList .slText {
+        font-size: 16px;
+    }
+    .countryPage .countryBtmctaContent h2 span.ctaHead {
+        /*font-size: 26px;*/
+    }
+    .countryPage .countryBtmctaContent h2 span {
+        font-size: 28px;
+    }
+    .countryPage .bs-content h3,
+    .countryPage .home-partner header h2,
+    .countryPage .supportSection .slHeader h2,
+    .countryPage .trialReviews h2,
+    .countryPage .faqSection h2,
+    .complianceGridContent h3,
+    .countryClients h2 {
+        font-size: 28px;
+        font-weight: 600;
+    }
+    .countryPage #trialReviews {
+        width: 100%;
+    }
+    .trialReviews .trialReviewsOuter:before {
+        display: none;
+    }
+    .countryPage .countryBtmctaContent {
+        width: 100%;
+    }
+    .header-logo.countryheader {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .fblContact {
+        margin: 0 0 20px;
+    }
+    .header-logo.countryheader p.discountCallDesktop {
+        margin: 20px auto 0;
+    }
+    .countryPage .bs-content p.subHeading {
+        text-align: center;
+    }
+    .countryPage .clientlogo_container {
+        margin: 0 auto;
+    }
+    .bfText {
+        font-size: 22px;
+        font-weight: 500;
+    }
+    .countryPage .feature_points li h4 {
+        font-size: 16px;
+    }
+    .darkSectionImg {
+        display: none;
+    }
+    .darkSectionInner .darkSectionText {
+        width: 100%;
+    }
+    .darkSectionInner {
+        text-align: center;
+        align-items: flex-start;
+    }
+    .darkSection {
+        margin-bottom: 0;
+    }
+    .countryPage.namibiaPage .clientlogo_container .owl-wrapper-outer, .countryPage.zambiaPage .clientlogo_container .owl-wrapper-outer {
+        max-width: 100%;
+    }
+    .countryPage.senegalPage .clientlogo_container .owl-wrapper-outer {
+        max-width: 75%;
+    }
+    .popupDesign.indiaExitpopupDesign .pdInner {
+        margin: 50px auto;
+        flex-direction: column;
+        max-width: 80%;
+        height: auto;
+    }
+    .popupDesign.indiaExitpopupDesign .pdInner .pdLeft {
+        width: 100%;
+        text-align: center;
+    }
+    .popupDesign.indiaExitpopupDesign .pdInner .pdRight {
+        width: 300px;
+        margin: 50px auto 0;
+    }
+    .popupDesign.indiaExitpopupDesign .pdInner .pdLeft h2 {
+        font-size: 30px;
+    }
+    .popupDesign.indiaExitpopupDesign .pdInner .pdLeft h2 span {
+        font-size: 24px;
+    }
+    .countryCTAsectionContent {
+        width: 90%;
+    }
+    .countryCTATitle {
+        font-size: 30px;
+    }
+    .countryCTATitle span {
+        font-size: 20px;
+    }
+    .countryBannerInner .countryBanner-Form {
+        max-width: 400px;
+        width: 100%;
+    }
+}
+
+@media (max-width:767px) {
+    .countryBody .modal-body {
+        padding: 6px;
+    }
+    .countryPage .feature_points {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .countryPage .feature_points li {
+        width: 100%;
+        margin: 0 0 30px 0;
+    }
+    .country-img.country-img-yanolja img,
+    .country-img.country-img-booking img,
+    .country-img.country-img-rocket img {
+        max-width: 110px;
+    }
+    .country-img.country-img-yanolja,
+    .country-img.country-img-booking,
+    .country-img.country-img-rocket {
+        min-height: 60px;
+    }
+    .countryBanner_partners {
+        justify-content: center;
+    }
+    .country-img {
+        max-width: 170px;
+    }
+    .countryBannerInner .country-subtitle {
+        font-size: 16px;
+    }
+    .country-title {
+        font-size: 30px;
+    }
+    .countryPage .countryBannerText {
+        font-size: 20px;
+    }
+    .country-title span {
+        font-size: 20px;
+    }
+    .countryPage .countryBtmctaContent h2 span,
+    .countryPage .countryBtmctaContent h2 span.ctaHead {
+        font-size: 26px;
+    }
+    .countryPage .bs-content h3,
+    .countryPage .home-partner header h2,
+    .countryPage .supportSection .slHeader h2,
+    .countryPage .trialReviews h2,
+    .countryPage .faqSection h2,
+    .complianceGridContent h3,
+    .countryClients h2 {
+        font-size: 26px;
+    }
+    .countryPage .feature_points li h4 {
+        font-size: 18px;
+    }
+    .darkSection .trialbtnOuter {
+        margin: 30px auto 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .darkSection .trialbtnOuter .btn.btn-info {
+        padding: 10px 40px 10px 50px;
+    }
+    .darkSection .trialbtnOuter .btn.btn-primary {
+        margin: 10px 0 0;
+    }
+    .darkSection h2 {
+        font-size: 26px;
+    }
+    .countryPage.namibiaPage .clientlogo_container .owl-wrapper-outer, .countryPage.zambiaPage .clientlogo_container .owl-wrapper-outer {
+        max-width: initial;
+    }
+    .countryPage.senegalPage .clientlogo_container .owl-wrapper-outer {
+        max-width: initial;
+    }
+    .popupDesign.indiaExitpopupDesign .pdInner {
+        margin: 0 auto;
+        max-width: 100%;
+    }
+    .popupDesign.indiaExitpopupDesign .pdInner .pdLeft {
+        display: none;
+    }
+    .popupDesign.indiaExitpopupDesign .pdInner .pdRight {
+        width: 300px;
+        margin: 30px auto;
+    }
+}
+
+@media (max-width:680px) {
+    .popupDesign.indiaExitpopupDesign .hs_error_rollup {
+        transform: translateX(0);
+    }
+}
+
+@media (max-width:600px) {
+    .countryPage .feature_points {
+        /*max-width: 80%;*/
+    }
+    .bfBox {
+        width: 100%;
+    }
+    .bfOuter {
+        width: auto;
+        display: table;
+        margin: 0 auto;
+    }
+    .countryBanner_partners {
+        flex-flow: column;
+    }
+    .country-img {
+        margin: 0 0 20px 0;
+    }
+    .country-img.country-img-yanolja img,
+    .country-img.country-img-booking img,
+    .country-img.country-img-rocket img {
+        max-width: 140px;
+    }
+    .country-img.country-img-yanolja,
+    .country-img.country-img-booking,
+    .country-img.country-img-rocket {
+        min-height: 70px;
+    }
+    .country-img {
+        width: 100%;
+        max-width: 250px;
+    }
+    .country_form {
+        max-width: initial;
+    }
+    .countryPage .countryBtmctaContent h2 span,
+    .countryPage .countryBtmctaContent h2 span.ctaHead {
+        font-size: 22px;
+    }
+    .countryPage .supportList .slImg {
+        transform: scale(0.8);
+    }
+    .countryPage .supportList {
+        padding: 0;
+    }
+    .countryPage .supportList .slText {
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .countryPage .bsImg.bsImg-hms,
+    .countryPage .bsImg.bsImg-cm,
+    .countryPage .bsImg.bsImg-be,
+    .countryPage .bsImg.bsImg-em {
+        transform: scale(0.36) translateY(0px);
+        transform-origin: left top;
+    }
+    .countryPage .bs-image {
+        max-height: 190px;
+        width: 290px;
+    }
+    .countryPage .bs-sec2 .bsImg-cmOuter,
+    .countryPage .bs-sec4 .bsImg-cmOuter {
+        max-height: 210px;
+        max-width: 290px;
+    }
+    .country-title {
+        font-size: 26px;
+    }
+    .countryPage .countryBannerText {
+        font-size: 18px;
+    }
+    .countryPage .bs-content h3,
+    .countryPage .home-partner header h2,
+    .countryPage .supportSection .slHeader h2,
+    .countryPage .trialReviews h2,
+    .countryPage .faqSection h2,
+    .complianceGridContent h3,
+    .countryClients h2 {
+        font-size: 24px;
+    }
+    .darkSection h2 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .countryPage .benefit-section {
+        padding-bottom: 40px;
+    }
+    .countryCTAsectionContent {
+        width: 100%;
+    }
+    .countryCTATitle {
+        font-size: 28px;
+    }
+}
+
+@media (max-width:480px) {
+    .countryPage .feature_points {
+        max-width: 100%;
+    }
+    .countryBannerInner .country-subtitle {
+        font-size: 15px;
+    }
+    .country-title {
+        font-size: 26px;
+    }
+    .country-title span {
+        font-size: 18px;
+    }
+    .bfText {
+        font-size: 20px;
+    }
+    .discountCallDesktop {
+        margin-top: 20px;
+    }
+    .feature-links p.fhms.fvideoIcn a {
+        min-width: 290px;
+    }
+    .countryPage .bs-btnouter .btn,
+    .countryPage .bs-btnouter .btn.btn-secondary {
+        /*margin:5px 5px;width: 70%;max-width: 100%;*/
+    }
+    .countryPage .bs-content h3,
+    .countryPage .home-partner header h2,
+    .countryPage .supportSection .slHeader h2,
+    .countryPage .trialReviews h2,
+    .countryPage .faqSection h2,
+    .complianceGridContent h3,
+    .countryClients h2 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .countryFormIndia .hs-submit .hs-button {
+        font-weight: 700;
+        padding: 15px 10px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .countryPage .feature_points li h4 {
+        font-size: 17px;
+    }
+    .darkSection h2 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .fblContact a {
+        display: block;
+    }
+    .popupDesign.indiaExitpopupDesign .pdInner .pdRight {
+        width: 100%;
+        max-width: 280px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:479px) {
+    .countryCTATitle {
+        font-size: 24px;
+    }
+    .countryCTATitle span {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:360px) {
+    .darkSection .trialbtnOuter .btn.btn-info {
+        font-size: 14px;
+        padding: 10px 20px 10px 40px;
+        text-align: left;
+    }
+    .darkSection .trialbtnOuter .btn.btn-primary {
+        font-size: 14px;
+        margin-left: 0;
+    }
+    .btn-video:before {
+        top: 6px;
+    }
+}
+
+@media (max-width:320px) {
+    .country_form {
+        max-width: initial;
+        margin: 0 40px;
+    }
+}
+
+
+/*----- Changes 11-11-2021 for all Ads Pages -----*/
+#header-section #topnav .navbar-nav, #footer-section, .callBtn {display: none !important;}
+#topnav .navbar-abs .navbar-nav li.gstlink.audit-btn a,
+#topnav .navbar-abs .navbar-nav li.gstlink.contactlessBtn a {display:none !important;}
+.adsCountryBody.topBarBody.tbShow .slidecontainer .tbSticky, 
+.adsCountryBody.topBarBody #header-section .persistheader.tbSticky { top:0;}
+.countryPage .countryBannerInner {align-items: flex-start;}
+.countryPage .banner-text {
+    margin: 30px 0 10px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2em;
+    letter-spacing: .02em;
+    color: #6dccfb;
+}
+.countryIndia .banner-title span {
+    color: #97cc4b;
+    display: block;
+    font-size: 26px;
+    line-height: 1.4em;
+    font-weight: 700;
+    letter-spacing: .03em;
+    text-transform: uppercase;
+    margin: 10px 0 0;
+}
+.flag {
+    width: 35px;
+    height: 24px;
+    display: inline-block;
+    background-image: url(images/country-flag.png);
+    background-repeat: no-repeat;
+    margin: 0 0 0 10px;
+    position: relative;
+    top: 3px;
+    display:none;
+}
+.flag.flag-india {
+    background-position: -501px -104px;
+}
+.fnoteMain {
+    background: #fff7e7;
+    border-bottom: 1px solid #eae0cc;
+    margin: 0;
+    padding: 15px 0;
+    color: #906a1d;
+    font-size: 13px;
+    letter-spacing: 0.04em;
+    font-weight: 400;
+    line-height: 1.4em;
+    z-index: 2;
+    position: relative;
+}
+.fnote {
+    position: relative;
+    display: table;
+    margin: 0 auto;
+    padding: 0 0 0 20px;
+}
+.fnoteMain .fa {
+    font-size: 18px;
+    margin: 0;
+    line-height: 1;
+    position: absolute;
+    top: 1px;
+    left: 0;
+}
+.countryPage .countryBanner {padding: 100px 0 50px;}
+.countryPage .countryBanner:after {transform: skewY(0deg);bottom: -130px;}
+.countryBanner:before {transform: skewY(0deg);top: 0;}
+
+.countryPage .home-partner {z-index: 2;position: relative;}
+.countryPage .home-partner .owl-wrapper-outer {box-shadow: none;border-radius: 0;border: none;}
+.indiaMapsection {background: #4965f9;padding: 120px 0;}
+.indiaMapsectionContent h2 {color: #fff;}
+.countryPage .benefit-section {padding: 60px 0 60px;}
+.countryPage .benefit-section.bs-sec1 {margin: 80px 0 0;}
+.darkSection{position: relative;overflow: hidden;padding: 30px 0 20px;}
+.darkSection:before {
+    content: "";
+    background: url(../images/revolt-snap.png) no-repeat center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .1;
+    transform-origin: center;
+    transform: scale3d(1.3,1.3,1) skewX(6deg) translateY(0px) translateX(100px);
+    animation: pmobile 100s linear infinite;
+    z-index: 0;
+}
+.darkSectionInner {z-index: 1;position: relative;justify-content: center;align-items: center;}
+.countryFormIndia .hs-submit .hs-button {margin-top: 10px;}
+.countryPage .trialReviews {
+    padding: 40px 0 0;
+    text-align: center;
+    background: #4965f9;
+    position: relative;
+}
+.trialReviews h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    margin: 0 0 40px;
+    position: relative;
+    letter-spacing: .01em;
+}
+.trialReviews .trialReviewsOuter:before {color: rgb(0 0 0 / 4%);}
+.countryPage #trialReviews {margin: 0 auto 60px;}
+.countryPage .countryBtmcta {
+    background: #323c4a;
+    color: #FFF;
+    position: relative;
+    padding: 40px 0;
+}
+.countryPage .thirdPartySection header h2 {font-weight: 600;}
+.requestCallSection {
+    position: relative;
+    /*overflow: hidden;*/
+    /*padding: 70px 0;*/
+    margin: 0 0 80px;
+    background: #323c4a;
+    color: #FFF;
+    background: linear-gradient(135deg,#323c4a 0%,#6c83a3 100%);
+    /*background: linear-gradient(135deg,#4965f9 0%,#4eb1e0 100%);*/
+}
+.generalForm.requestCall .hs-form-field label {display: none;}
+.requestCallImg {position: absolute; bottom: 0;right: 12%;z-index: 2;}
+.requestCallImg img {max-width: 230px;}
+.requestCall-Form {z-index: 2; position: relative;overflow: hidden;}
+.requestCall_form {
+    padding: 50px 0;
+    margin: 0 0 0 60px;
+}
+.requestCallHeading {margin: 0 0 30px 0;}
+.requestCall_form h2 {
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 1.2em;
+    margin: 0;
+    letter-spacing: 0.03em;
+}
+#requestCallForm .hs_error_rollup {
+    position: absolute;
+    bottom: 20px;
+}
+.requestCall_form p {letter-spacing: 0.03em;}
+.generalForm.requestCall {padding: 0;min-height: initial;}
+.requestCall .hs-form {display: flex;justify-content: flex-start;align-items: center;}
+.generalForm.requestCall .hs-form-field {margin: 0 15px 0 0;}
+.generalForm.requestCall .hs-submit {margin: 0;}
+.generalForm.requestCall .hs-form-field label {background: transparent;}
+/* .hs_error_rollup {position: absolute;bottom: 25px;left: 60px;} */
+.hs_error_rollup .hs-error-msgs {padding: 0;}
+.generalForm.requestCall .hs-submit .hs-button {
+    border: 1px solid #ffc107;
+    background: #ffc107; 
+    font-weight: 700;
+    color: #222;
+    text-transform: uppercase;
+    padding: 10px 20px
+}
+.generalForm.requestCall .hs-submit .hs-button, .countryFormIndia .hs-submit .hs-button {margin: 0;}
+.generalForm.requestCall .hs-submit .hs-button:hover {box-shadow: 0 5px 12px -2px rgb(0 0 0 / 50%);}
+.generalForm.requestCall .hs-form-field .input .hs-input {padding: 12px 15px 12px;}
+.generalForm.requestCall .submitted-message p {
+    padding: 8px 10px;
+    margin: 0;
+    color: #000;
+    font-size: 13px;
+    line-height: 100%;
+    font-weight: 600;
+    position: relative;
+    left: 0;
+    top: 0;
+    transition: all 0.3s ease;
+    background: #ffc107;
+    display: inline-block;
+    border-radius: 5px;
+    text-align: left;
+    z-index: 1;
+}
+.generalForm.requestCall .hs-submit .hs-button {font-size: 16px;}
+
+.requestCallSection .patterns span {position: absolute;z-index: -1;}
+.requestCallSection .patterns span:nth-child(1) {
+    width: 350px;
+    height: 150px;
+    left: -40px;
+    top: -130px;
+    -webkit-transform: rotate(75deg);
+    transform: rotate(75deg);
+    background: -moz-linear-gradient(-360deg,rgba(0,0,0,0.05) 30%,rgba(0,0,0,0.1) 100%);
+    background: -webkit-linear-gradient(-360deg,rgba(0,0,0,0.05) 30%,rgba(0,0,0,0.1) 100%);
+    background: linear-gradient(-360deg,rgba(0,0,0,0.05) 3%,rgba(0,0,0,0.1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000',endColorstr='#a6000000',GradientType=1);
+}
+.requestCallSection .patterns span:nth-child(2) {
+    width: 850px;
+    height: 235px;
+    left: 65%;
+    top: -110%;
+    -webkit-transform: rotate(-24deg);
+    transform: rotate(-24deg);
+    background: -moz-linear-gradient(-120deg,rgba(0,0,0,0) 30%,rgba(0,0,0,0.05) 100%);
+    background: -webkit-linear-gradient(-120deg,rgba(0,0,0,0) 30%,rgba(0,0,0,0.05) 100%);
+    background: linear-gradient(-120deg,rgba(0,0,0,0) 3%,rgba(0,0,0,0.05) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000',endColorstr='#a6000000',GradientType=1);
+}
+.requestCallSection .patterns span:nth-child(3) {
+    width: 200px;
+    height: 200px;
+    left: 45%;
+    bottom: -50%;
+    -webkit-transform: rotate(38deg);
+    transform: rotate(38deg);
+    background: -moz-linear-gradient(-27deg,rgba(0,0,0,0) 30%,rgba(0,0,0,0.05) 100%);
+    background: -webkit-linear-gradient(-27deg,rgba(0,0,0,0) 30%,rgba(0,0,0,0.05) 100%);
+    background: linear-gradient(-27deg,rgba(0,0,0,0) 3%,rgba(0,0,0,0.05) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000',endColorstr='#a6000000',GradientType=1);
+}
+.countryPage.countryIndia .thirdPartySection {background: transparent;border-top: none;}
+.countryPage.countryIndia .thirdPartySection header {width: 90%;}
+.countryPage.countryIndia .thirdPartySection header h2 {font-weight: 400;font-size: 32px;}
+.countryPage.countryIndia .thirdPartySection header p.subHeading {font-size: 15px;}
+
+@media (max-width:1199px) {
+    .requestCall_form {margin: 0;}
+    .requestCallImg {right: 5%;}
+    .hs_error_rollup {left: 0px;}
+    .countryPage .benefit-section.bs-sec1 {margin-top: 40px;}
+    #topnav .navbar-abs .navbar-nav li.callBtn {display: block;}
+    #topnav .navbar-abs .navbar-nav li.freetriallink a {margin-top: 13px;}
+}
+@media (max-width:1024px) {
+    .requestCallImg {right: 5%;}
+}
+@media (max-width:991px) {
+    .requestCall .hs-form {margin: 0 auto;justify-content: center;}
+    .requestCallHeading {text-align: center;}
+    .requestCallImg {display: none;}
+    .countryPage .countryBannerInner {align-items: center;}
+    .generalForm.requestCall .submitted-message {text-align: center;}
+    .hs_error_rollup {left: 40px;}
+    .countryPage .benefit-section.bs-sec1 {margin-top: 0;}
+    .darkSection {padding-bottom: 40px;}
+
+}
+@media (max-width:767px) { 
+    .hs_error_rollup {left: 47px;}
+    #countryAdslogo.navbar-brand {margin-bottom: 10px;}
+}
+@media (max-width:680px) {
+    .requestCall .hs-form {max-width: 100%;flex-flow: column;}
+    .generalForm.requestCall .hs-form-field, .generalForm.requestCall .hs-submit {margin: 10px 0;}
+    .generalForm.requestCall .hs-submit .hs-button {font-size: 14px;}
+    .requestCallHeading {max-width: 70%; margin: 0 auto;}
+    .hs_error_rollup {left: 50%; transform: translateX(-50%);}
+}
+@media (max-width:575px) {
+    .requestCall_form h2 {font-size: 32px;}
+    .requestCallHeading {max-width: 80%;}
+}
+@media (max-width:480px) {
+    .requestCallHeading {max-width: 100%;}
+    .hs_error_rollup {width: 53%;}
+}
+@media (max-width:320px) {
+    .hs_error_rollup {width: 80%;}
+}
+
+/* Free Visit  CSS */
+.countryIndia .darkSection{ margin: 0; }
+.countryPage .freeVisitSection {
+    position: relative;
+    padding: 50px 0;
+    /*text-align: center;*/
+    overflow: hidden;
+    /*background: #323c4a;
+    background: linear-gradient(to top,#f4f5f7 30%,#fff 100%);*/
+    /*border-top: 2px solid #42486a;*/
+    display: inline-block;
+    /*opacity: 0.3;*/
+    width: 100%;
+    /*vertical-align: top;*/
+    margin: 0 0 40px 0;
+}
+.countryPage .freeVisitSection:after {
+    content: "";
+    background: url(../images/freeVisit.png) no-repeat center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transform-origin: center;
+    z-index: -1;
+    background-size: cover;
+}
+.freeVisitSection:before {
+    content: "";
+    /*background: url(https://www.ezeeabsolute.com/images/map3.png) no-repeat 0 0;*/
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    background: #f4f5f7;
+    /*background: linear-gradient(to top,#f4f5f7 30%,#fff 100%);*/
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 0;
+    /*transform: scale(0.8);*/
+    z-index: 0;
+    opacity: 0.92;
+}
+.generalForm.freeVisit {min-height: initial;}
+.countryPage .freeVisitSection .freeVisitInner {
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+.generalForm.freeVisit {
+    font-size: initial;
+    padding: 20px;
+    max-width: 360px;
+    width: 360px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    background: #FFF;
+    box-shadow: 0 10px 30px 0 rgb(0 0 0 / 10%);
+}
+.freeVisitInner .freeVisitText {width: calc(80% - 350px);}
+.freeVisitInner .freeVisitText h2 span {color: #111;}
+.freeVisitInner .freeVisitText h2 {
+    font-size: 44px;
+    line-height: 1.3em;
+    margin: 0 0 20px 0;
+    font-weight: 800;
+    /*text-shadow: 0px 3px 2px rgb(0 0 0 / 20%);*/
+    color: #333;
+}
+.freeVisitInner .freeVisitText p {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.4em;
+    color: #000;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+#freeVisitVideo.modal {background: rgba(0,0,0,0.4);}
+.freeVisitForm-terms {padding-top: 5px; font-size: 13px;color: #666666;text-align: center;}
+.freeVisitForm-terms span{color: #999999;}
+.generalForm.freeVisit .hs-form-field {margin: 13px 0 30px;}
+
+.indiaCitySection {
+    padding: 60px 0;
+    /* background: #f6f7f9; */
+    background: rgb(50,60,74);
+    background: -moz-linear-gradient(left,  rgba(50,60,74,1) 0%, rgba(108,131,163,1) 100%);
+    background: -webkit-linear-gradient(left,  rgba(50,60,74,1) 0%,rgba(108,131,163,1) 100%);
+    background: linear-gradient(to right,  rgba(50,60,74,1) 0%,rgba(108,131,163,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#323c4a', endColorstr='#6c83a3',GradientType=1 );
+}
+.indiaCitySectionHead {
+    margin-bottom: 25px;
+    text-align:center;
+    color:#FFF;
+}
+.indiaCitySection h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.indiaCitySectionHead p {
+    font-size: 18px;
+    margin: 5px 0 0;
+    line-height: 1.4;
+}
+
+.indiaCityDataDiv ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.indiaCityDataDiv ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    width: calc(20% - 15px);
+    background: #FFF;
+    border-radius: 4px;
+    box-shadow: 2px 4px 6px -4px rgb(0 0 0 / 70%);
+    margin: 20px 0 0 15px;
+    transition: all 0.3s ease;
+}
+.indiaCityDataDiv ul li:hover {
+    box-shadow: 2px 10px 20px -10px rgb(0 0 0 / 80%);
+    transform: scale(1.03);
+}
+.indiaCityDataDiv ul li:nth-of-type(5n+1) {
+    margin-left: 0;
+}
+.cityName {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1;
+    transition: all 0.3s ease;
+    color:#000;
+}
+.cityTotal {
+    /* background: #00bcd4;
+    color: #FFF;
+    padding: 3px; */
+    line-height: 1;
+    margin: 0 0 0 10px;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.countryPricingSection {
+    padding: 50px 0 50px;
+    position: relative;
+    z-index: 1;
+}
+.countryPricingSectionHead {
+    margin: 0 auto 30px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.3;
+}
+.countryPricingSectionHead span {
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
+    margin: 10px 0 0;
+}
+.countryPricingInner {
+    display: flex;
+    justify-content: center;
+}
+.countryPricingpkg {
+    background: #fff;
+    border: 1px solid #DEDEDE;
+    text-align: center;
+    margin: 8px;
+    position: relative;
+    border-radius: 4px;
+    flex: 1 1;
+}
+.countryPricingpkgHeader {
+    padding: 20px 18px;
+    margin-bottom: 0;
+    background: #f2f4f9;
+    border-radius: 4px 4px 0 0;
+}
+.countryPricingpkgTitle {
+    font-size: 21px;
+    color: #4965F9;
+    font-weight: 600;
+    margin: 0 0 5px;
+}
+.countryPricingpkgInfo {
+    font-size: 14px;
+    line-height: 1.2;
+    max-width: 220px;
+    margin: 0 auto;
+    color: #434C5E;
+    text-transform: capitalize;
+    min-height: 32px;
+}
+.countryPricingpkgOnetime {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1;
+    display: block;
+    margin: 15px 0 0;
+}
+.countryPricingpkgPrice {
+    margin: 15px 0;
+    padding: 0 18px;
+}
+.cppkgPriceDiscountPrice {
+    font-size: 40px;
+    line-height: 1;
+    margin: 0;
+}
+.cppkgPriceDiscountPrice small {
+    background: none;
+    vertical-align: super;
+    padding: 0;
+    font-size: 0.5em;
+    margin-right: 2px;
+}
+.cppkgPricePermonth {
+    display: block;
+    font-size: 12px;
+    opacity: 0.7;
+    vertical-align: bottom;
+    line-height: 1;
+    margin: 3px 0;
+}
+.countryPricingpkgButton {
+    padding: 10px 0 20px;
+}
+.countryPricingpkgButton .btn.btn-link {
+    border: 1px solid #4965f9;
+    color: #4965f9;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.countryPricingpkgButton .btn.btn-link:hover {
+    box-shadow: 0 8px 12px -5px rgb(0 0 0 / 20%);
+}
+.countryPricingpkgHighlight {
+    background: #e5fcff;
+    /* box-shadow: 0 2px 12px rgb(0 0 0 / 25%);
+    margin-top: 0; */
+}
+.countryPricingpkgHighlight .countryPricingpkgHeader {
+    background: rgb(73,101,249);
+    background: -moz-linear-gradient(top,  rgba(73,101,249,1) 10%, rgba(78,177,224,1) 90%);
+    background: -webkit-linear-gradient(top,  rgba(73,101,249,1) 10%,rgba(78,177,224,1) 90%);
+    background: linear-gradient(to bottom,  rgba(73,101,249,1) 10%,rgba(78,177,224,1) 90%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4965f9', endColorstr='#4eb1e0',GradientType=0 );
+    color: #FFF;
+}
+.countryPricingpkgHighlight .countryPricingpkgTitle {
+    color: inherit;
+}
+.countryPricingpkgHighlight .countryPricingpkgInfo {
+    color: inherit;
+}
+.country_form .hs-form-field.hs_opt_for {
+    margin: 13px 0 35px;
+    text-align: left;
+    position: relative;
+    transition: all .3s ease;
+    padding: 15px 15px 9px;
+    border-radius: 4px;
+    border: 1px solid #cbd4de;
+}
+.country_form .hs-form-field.hs_opt_for label {
+    padding: 0 4px 4px;
+    margin: 0;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: initial;
+    display: inline-block;
+    vertical-align: middle;
+    color: #33475b;
+    position: absolute;
+    top: -10px;
+    left: 6px;
+    z-index: 3;
+    background: #FFF;
+    transition: all .3s ease;
+}
+.country_form .hs-form-field.hs_opt_for .input {
+    display: inline-block;
+}
+.country_form .hs-form-field.hs_opt_for ul.inputs-list.multi-container {
+    position: relative;
+}
+.country_form .hs-form-field.hs_opt_for ul.inputs-list.multi-container li.hs-form-checkbox label.hs-form-checkbox-display {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+}
+.country_form .hs-form-field.hs_opt_for .hs-error-msgs label {
+    padding: 0;
+    margin: 0;
+    color: #f98181;
+    font-size: 12px;
+    line-height: 1.2em;
+    font-weight: 400;
+    position: relative;
+    left: 0;
+    top: 0;
+    transition: all 0.3s ease;
+}
+/*.countryPage .clientlogo_container .clientlogo {background: #fff;}
+.countryPage .countryClients.SouthAfricaClients {background: #f5f5f5;}*/
+
+.bfBox.bfBox4 .bfIcon, .bfBox.bfBox4:before {
+    /*background-position: 0 0;
+    background-image: url(https://www.ezeemint.com/wp-content/uploads/2021/06/icn-chart-dark.png);
+    background-size: 45px 45px;*/
+}
+.bfBox.bfBox5 .bfIcon, .bfBox.bfBox5:before {
+    background-position: -53px -419px;
+    background-image: url(../images/icons/icons_sprites.png);
+    background-repeat: no-repeat;
+    /*background-size: 45px 45px;*/
+    /*display: inline-block;
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    left: 0;
+    top: -58px;
+    transition: all 0.3s ease;*/
+}
+
+
+
+/* Media Query */
+@media (max-width:1199px) {
+    .freeVisitInner .freeVisitText {width: calc(100% - 350px);}
+    .freeVisitInner .freeVisitText h2 {font-size: 36px;}
+    .countryPage .freeVisitSection, .requestCallSection, .countryPage .freeVisitSection {margin: 0;}
+    .countryPage .benefit-section.bs-sec3 {padding: 0;}
+    .countryPage .benefit-section.bs-sec4 {padding: 80px 0 0;}
+    .indiaCityDataDiv ul li {width: calc(25% - 15px);}
+    .indiaCityDataDiv ul li:nth-of-type(5n+1) {margin-left: 15px;}
+    .indiaCityDataDiv ul li:nth-of-type(4n+1) {margin-left: 0;}
+    .indiaCitySection h2 {font-size:28px;}
+    .countryPricingSectionHead {font-size:28px;}
+}
+@media (max-width:1024px) {}
+@media (max-width:991px) {
+    .countryPage .freeVisitSection .freeVisitInner {flex-flow: column;}
+    .freeVisitInner .freeVisitText {width: 72%;text-align: center;}
+    .freeVisitInner .freeVisitText h2 {font-size: 32px;}
+    .freeVisitInner .freeVisitText p {font-size: 14px; margin: 0 0 20px;}
+    .countryPage .freeVisitSection {margin: 0;}
+    .countryPage .benefit-section {padding: 40px 0 40px;}
+    .countryPage .benefit-section.bs-sec2 {padding: 0px 0 60px;}
+    .countryPage .benefit-section.bs-sec3 {padding: 0 0 50px;}
+    .countryPage .benefit-section.bs-sec4 {padding: 0;}
+    .requestCallSection {margin: 0 0 20px;}
+    .requestCall_form h2 {font-size: 30px;}
+    .countryPage .countryBtmctaButton .btn {font-size: 18px;}
+    .countryPage.countryIndia .thirdPartySection header h2 {font-size: 26px;font-weight: 600;}
+    .offcanvas {display: block;}
+    .indiaMapsection {padding:40px 0;}
+    .indiaCityDataDiv ul li {width: calc(33% - 15px);}
+    .indiaCityDataDiv ul li:nth-of-type(4n+1) {margin-left: 15px;}
+    .indiaCityDataDiv ul li:nth-of-type(3n+1) {margin-left: 0;}
+    .countryPricingInner {max-width: 600px; margin: auto; flex-wrap: wrap;}
+    .countryPricingpkg {flex: auto; width: calc(50% - 16px);}
+    .countryPricingSectionHead {width:80%;}
+    .countryPricingSection {padding: 50px 0 0;}
+    
+}
+@media (max-width:767px) {
+    .freeVisitInner .freeVisitText {width: 70%;}
+    .countryIndia .country-title {max-width: 80%; margin: 0 auto;}
+    .freeVisitInner .freeVisitText h2 {font-size: 28px;}
+    .requestCall_form h2 { font-size: 26px;}
+    .countryPage .countryBanner {padding-top: 70px;}
+    .indiaCitySection h2 {font-size:26px;}
+    #topnav .navbar-abs .navbar-nav li.freetriallink a {  margin-top: 0px;}
+    #topnav .navbar-abs .navright a.btnoffcanvas {margin-top: 4px;}
+    .indiaCityDataDiv ul {justify-content: center;}
+    .indiaCityDataDiv ul li {width: calc(50% - 15px);}
+    .indiaCityDataDiv ul li:nth-of-type(3n+1) {margin-left: 15px;}
+    .indiaCityDataDiv ul li:nth-of-type(2n+1) {margin-left: 0;}
+    .indiaCityDataDiv ul li:hover {box-shadow: 2px 4px 6px -4px rgb(0 0 0 / 30%);transform: scale(1);}
+    .countryPricingSectionHead {width:100%; font-size:26px;}
+
+
+}
+@media (max-width:680px) {
+    .freeVisitInner .freeVisitText {width: 65%;}
+    .freeVisitInner .freeVisitText h2 {font-size: 28px;}
+    .countryIndia .country-title {max-width: 90%;}
+    .countryPage.countryIndia .thirdPartySection header h2 {font-size: 24px;}
+    .country_form {max-width: initial; margin: 0 15px;}
+    .countryBannerInner .generalForm .hs-submit {margin-top: 20px;}
+
+}
+@media (max-width:600px) {
+    .indiaCitySection h2 {font-size:24px;}
+}
+@media (max-width:575px) {
+    .freeVisitInner .freeVisitText {width: 70%;}
+    .freeVisitInner .freeVisitText h2 {font-size: 24px;}
+    .requestCallHeading { max-width: 70%;}
+    .countryIndia .country-title { max-width: 100%;}
+    .indiaMapsection { padding: 50px 0;}
+    .indiaCitySection {padding:40px 0;}
+    .countryPricingSectionHead span {font-size:18px;}
+        
+}
+@media (max-width:480px) {
+    .fblContact {max-width: 350px; margin-left: auto; margin-right: auto;}
+    .fblContact a {display: inline-block;}
+    .countryPricingpkg {width: calc(100% - 16px);}
+}
+@media (max-width:479px) {
+    .freeVisitInner .freeVisitText {width: 85%;}
+    .freeVisitInner .freeVisitText h2 {font-size: 22px;}
+    .requestCall_form h2 {font-size: 24px;}
+    .requestCallHeading {max-width: 80%;}
+    .countryPage.countryIndia .thirdPartySection header h2 {font-size: 20px;font-weight: 700;}
+    .indiaCityDataDiv ul li {width: calc(50% - 10px); padding: 10px; margin-left: 10px;}
+    .indiaCityDataDiv ul li:nth-of-type(2n+1) {margin-left: 0;}
+    .cityTotal {margin-left: 5px;}
+    .cityName {font-size:14px;}
+    .indiaCitySectionHead p {font-size:16px;}
+    .countryPricingSectionHead {font-size:24px;}
+}
+@media (max-width:400px) {
+    /* .indiaCityDataDiv ul {background: #FFF; border-radius: 6px; box-shadow: 1px 2px 4px -2px rgb(0 0 0 / 15%);}
+    .indiaCityDataDiv ul li {width:100%; margin:0; padding: 10px; border-radius: 0; background:none; box-shadow: none;} */
+    .indiaCityDataDiv ul li {width: 100%; padding: 15px; margin-left: 0; margin-top: 15px;}
+    .indiaCityDataDiv ul li:nth-of-type(5n+1),
+    .indiaCityDataDiv ul li:nth-of-type(4n+1),
+    .indiaCityDataDiv ul li:nth-of-type(3n+1),
+    .indiaCityDataDiv ul li:nth-of-type(2n+1) {margin-left: 0;}
+
+}
+
+@media (max-width:320px) {
+    .freeVisitInner .freeVisitText {width: 100%;}
+    .freeVisitInner .freeVisitText h2 {font-size: 20px;}
+    .freeVisitInner .freeVisitText p {font-size: 12px;}
+    .generalForm.freeVisit {max-width: 280px;width: 280px;}
+    .requestCall_form h2 {font-size: 22px;}
+    .requestCallHeading {max-width: 100%;}
+    .countryPricingSectionHead {font-size:22px;}
+    /* .indiaCityDataDiv ul {background: #FFF; border-radius: 6px; box-shadow: 1px 2px 4px -2px rgb(0 0 0 / 15%);}
+    .indiaCityDataDiv ul li {width:100%; margin:0; padding: 10px; border-radius: 0; background:none; box-shadow: none;} */
+}

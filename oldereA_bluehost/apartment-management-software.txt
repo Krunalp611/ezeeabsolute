@@ -1,0 +1,425 @@
+<?php include "includes/header.php"; ?>
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+      
+<!-- propertypage -->
+<div class="propertypage">
+
+    <div class="page_container">
+
+        <div class="prop-headersection">
+            <div class="container">
+                <div class="prop-header">
+                    <div class="prophtxt">
+                        <h2>Right now, 500+ serviced apartments are handling their operations with eZee</h2>
+                        <p>Bookings. Inventory. Operations. Get everything managed in a jiffy.</p>
+                        <a class="btn btn-primary" href="livedemo.php">Get your free trial instantly!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End: prop-headersection -->
+
+        <div class="benifits">
+            <div class="container">
+                <h1>How does our apartment management software benefit you?</h1> 
+                <p class="subttl">Your search ends here. Get everything of your serviced apartments handled with eZee's apartment management software. We give all that you need to take your business to the next level. </p>
+
+                <div class="row">
+
+                    <div class="single-feature">
+                        <div class="col-md-4 col-xs-12 col-sm-4 fleft">
+                            <div class="iconimg"><img src="images/icons/single-mill.png" alt="Run everything from a single mill"></div>
+                        </div>
+                        <div class="col-md-8 col-xs-12 col-sm-8 fright">
+                            <div class="icon rightalign">
+                                <h3 class="feature-header">Run everything from a single mill</h3>
+                                <p class="single-description">Whether your apartments are scattered or are oriented all at a place, you can manage all of them from a single median with the help of our apartment software.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-feature">
+                        <div class="col-md-4 col-xs-12 col-sm-4 fright">
+                            <div class="iconimg"><img src="images/icons/center-reservations.png" alt="Handle all your reservation from a single place"></div>
+                        </div>
+                        <div class="col-md-8 col-xs-12 col-sm-8">
+                            <div class="icon">
+                                <h3 class="feature-header">Handle all your reservation from a single place</h3>
+                                <p class="single-description">With the help of our apartment management software direct the surge of reservations of all your apartments from your website, and other platforms at one place by centralising the control of reservation system.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="single-feature">
+                        <div class="col-md-4 col-xs-12 col-sm-4 fleft">
+                            <div class="iconimg"><img src="images/apt_manage_stay.png" alt="Long-term stays are easily managed"></div>
+                        </div>
+                        <div class="col-md-8 col-xs-12 col-sm-8 fright">
+                            <div class="icon rightalign">
+                                <h3 class="feature-header">Long-term stays are easily managed</h3>
+                                <p class="single-description">We know you get guests who stay for months at a stretch. Handle those and any termed stays effortlessly besides those folio cuts that your guests demand, with eZee’s apartment management system.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-feature">
+                        <div class="col-md-4 col-xs-12 col-sm-4 fright">
+                            <div class="iconimg"><img src="images/apt_manage_room.png" alt="Your connected rooms get smoothly handled"></div>
+                        </div>
+                        <div class="col-md-8 col-xs-12 col-sm-8">
+                            <div class="icon">
+                                <h3 class="feature-header">Your connected rooms get smoothly handled</h3>
+                                <p class="single-description">Manage family or group bookings of your serviced apartments through the robust suite-child, a.k.a connected rooms feature of eZee’s apartment management software.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="single-feature">
+                        <div class="col-md-4 col-xs-12 col-sm-4 fleft">
+                            <div class="iconimg"><img src="images/icons/mock-room.png" alt="Let a mock room do the real work"></div>
+                        </div>
+                        <div class="col-md-8 col-xs-12 col-sm-8 fright">
+                            <div class="icon rightalign">
+                                <h3 class="feature-header">Let a mock room do the real work</h3>
+                                <p class="single-description">Our apartment management software will get a two fold hike in your billing process by letting you add a paymaster room in your list. These paymaster rooms can even help you in making accurate calculations of your extra expenses.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-feature">
+                        <div class="col-md-4 col-xs-12 col-sm-4 fright">
+                            <div class="iconimg"><img src="images/icons/accept-bills.png" alt="Accept bills from companies and credit their sales"></div>
+                        </div>
+                        <div class="col-md-8 col-xs-12 col-sm-8">
+                            <div class="icon">
+                                <h3 class="feature-header">Accept bills from companies and credit their sales</h3>
+                                <p class="single-description">Go beyond to maintain a city ledger account. Also, with the help of eZee apartment software, manage the settlements in either way whether via cash, debit or credit card.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="single-feature">
+                        <div class="col-md-4 col-xs-12 col-sm-4 fleft">
+                            <div class="iconimg"><img src="images/icons/tariffs.png" alt="Map your tariffs with varying meal plans"></div>
+                        </div>
+                        <div class="col-md-8 col-xs-12 col-sm-8 fright">
+                            <div class="icon rightalign">
+                                <h3 class="feature-header">Map your tariffs with varying meal plans</h3>
+                                <p class="single-description">You may receive guests that keep changing their meal and rate plans. With our apartment management software, you can always manage your tariffs precisely and can easily carter to those guests the way they want.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-feature">
+                        <div class="col-md-4 col-xs-12 col-sm-4 fright">
+                            <div class="iconimg"><img src="images/icons/travel-agent.png" alt="All your travel agent accounts get lined up"></div>
+                        </div>
+                        <div class="col-md-8 col-xs-12 col-sm-8">
+                            <div class="icon">
+                                <h3 class="feature-header">All your travel agent accounts get lined up</h3>
+                                <p class="single-description">Save your time by keeping a track of all your travel agents’ logs and handle their shebangs from one place with the help of apartment management system.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="single-feature">
+                        <div class="col-md-4 col-xs-12 col-sm-4 fleft">
+                            <div class="iconimg"><img src="images/icons/secure.png" alt="A serviced apartment system that keeps a check"></div>
+                        </div>
+                        <div class="col-md-8 col-xs-12 col-sm-8 fright">
+                            <div class="icon rightalign">
+                                <h3 class="feature-header">A serviced apartment system that keeps a check</h3>
+                                <p class="single-description">We’ve got an apartment software that enables you to ensure the security of your apartment networks by generating, linking and operating all your key cards at a single end.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-feature">
+                        <div class="col-md-4 col-xs-12 col-sm-4 fright">
+                            <div class="iconimg"><img src="images/apt_yield_management.png" alt="You yield maximum with flexible rates"></div>
+                        </div>
+                        <div class="col-md-8 col-xs-12 col-sm-8">
+                            <div class="icon">
+                                <h3 class="feature-header">You yield maximum with flexible rates</h3>
+                                <p class="single-description">Versatile guests are a part of your daily routine. The apartment management system lets you have contract rates, company rates and more; which make your sales go up.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="single-feature">
+                        <div class="col-md-4 col-xs-12 col-sm-4 fleft">
+                            <div class="iconimg"><img src="images/icons/booking-pole.png" alt="You’re backed by unlimited direct bookings"></div>
+                        </div>
+                        <div class="col-md-8 col-xs-12 col-sm-8 fright">
+                            <div class="icon rightalign">
+                                <h3 class="feature-header">You’re backed by unlimited direct bookings</h3>
+                                <p class="single-description">Get sure shot direct bookings, offer countless deals, upsell amenities and other booking counter operations right from one core with the help of our serviced apartment management software.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-feature">
+                        <div class="col-md-4 col-xs-12 col-sm-4 fright">
+                            <div class="iconimg"><img src="images/icons/nitty-gritty.png" alt="You get your business insights in one click"></div>
+                        </div>
+                        <div class="col-md-8 col-xs-12 col-sm-8">
+                            <div class="icon">
+                                <h3 class="feature-header">You get your business insights in one click</h3>
+                                <p class="single-description">Fetch accurate eye catching reports to have an insight of the different operations and outcomes of your apartments at a single click, right at your fingertips.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="single-feature">
+                        <div class="col-md-4 col-xs-12 col-sm-4 fleft">
+                            <div class="iconimg"><img src="images/apt_handle_service.png" alt="Run all your services from a single place"></div>
+                        </div>
+                        <div class="col-md-8 col-xs-12 col-sm-8 fright">
+                            <div class="icon rightalign">
+                                <h3 class="feature-header">Run all your services from a single place</h3>
+                                <p class="single-description">Serviced apartments like yours have several things to offer. Gym, kitchenettes, meeting spaces, laundry services; you can handle all your services from a single place with apartment software.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-feature">
+                        <div class="col-md-4 col-xs-12 col-sm-4 fright">
+                            <div class="iconimg"><img src="images/apt_low_cost.png" alt="Your expenses are cut down"></div>
+                        </div>
+                        <div class="col-md-8 col-xs-12 col-sm-8">
+                            <div class="icon">
+                                <h3 class="feature-header">Your expenses are cut down</h3>
+                                <p class="single-description">Your operations get completely automated with eZee apartment software. So your expenses on getting any task done manually reduce, and you experience minimal errors.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="single-feature">
+                        <div class="col-md-4 col-xs-12 col-sm-4 fleft">
+                            <div class="iconimg"><img src="images/apt_apartment_maintance.png" alt="Your apartment maintenance gets easier"></div>
+                        </div>
+                        <div class="col-md-8 col-xs-12 col-sm-8 fright">
+                            <div class="icon rightalign">
+                                <h3 class="feature-header">Your apartment maintenance gets easier</h3>
+                                <p class="single-description">How do you oversee your apartment maintenance? However you do it; the housekeeping module will make it a a lot easier for you to keep track of maids and status.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-feature">
+                        <div class="col-md-4 col-xs-12 col-sm-4 fright">
+                            <div class="iconimg"><img src="images/apt_service_easy.png" alt="Best, your service gets better"></div>
+                        </div>
+                        <div class="col-md-8 col-xs-12 col-sm-8">
+                            <div class="icon">
+                                <h3 class="feature-header">Best, your service gets better</h3>
+                                <p class="single-description">Your expenses are lowered. Operations are automated. Everything is managed with eZee's apartment management software. Which gives you more time to focus on your guests.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="single-feature">
+                        <div class="col-md-4 col-xs-12 col-sm-4 fleft">
+                            <div class="iconimg"><img src="images/guest-experience.png" alt="Offer a superlative guest experience"></div>
+                        </div>
+                        <div class="col-md-8 col-xs-12 col-sm-8 fright">
+                            <div class="icon rightalign">
+                                <h3 class="feature-header">Offer a superlative guest experience</h3>
+                                <p class="single-description">With the help of guest portal in our apartment management software, you can stay all ears to your guests’ requests and eventually, will be able to impart an excellent guest experience.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>       
+
+        <div class="otherproduct">
+            <div class="container">
+                <div class="row">
+                    <h2 class="ttl">And, you get the best apartment system</h2>
+                    <div class="col-md-4 col-xs-12 col-sm-4 ptccon">
+                        <img src="images/pms-software.png" alt="Online Apartment Management Software"><h3>Online Apartment <br>Management Software</h3>
+                    </div>
+                    <div class="col-md-4 col-xs-12 col-sm-4 ptccon">
+                        <img src="images/online-booking-engine.png" alt="Online Booking Engine"><h3>Online <br>Booking Engine</h3>
+                    </div>
+                    <div class="col-md-4 col-xs-12 col-sm-4 ptccon ptcconnone">
+                        <img src="images/online-channel-manager.png" alt="Online Channel Manager System"><h3>Online <br>Channel Manager System</h3>
+                    </div>
+                    <div class="btnsec"><a href="livedemo.php" class="btn btn-primary ">Give us a try now!</a></div>
+                </div>
+            </div>
+        </div>
+
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-outer">
+                    <h2>See why we’re the first choice of many</h2>
+                    <p>Serviced Apartments recently have become the first pick for professionals and entrepreneurs to amplify the productivity of their time spent when traveling. Equipping homes with speed-web components, power backup, spacious rooms, dedicated drawing rooms and even kitchenettes allow corporate professionals to have a home away from home. Having eZee as our technology partner allows us to help run our chain of serviced apartments with minimal efforts and greater outputs
+                    </p>
+                    <p class="hmuserimg"><img src="images/testimonials/vinodh-varadati.png" alt="Vinodh Varadati"></p>
+                    <span class="author">Vinodh Varadati,<br> Director,<br> <a href="https://www.skylaservicedapartments.com/" target="_blank">Skyla Serviced Apartments</a></span>
+                </div>
+            </div>
+            <div class="patterns"><span></span><span></span><span></span></div>
+        </section>
+
+        <!-- mp-testimonial -->
+        <div class="mp-testimonial">
+            <div class="container">
+
+                <h2>We cater to countless other serviced apartments</h2>
+                <!-- clientlogo_container -->
+                <div id="client_testimonials" class="clientlogo_container owl-carousel owl-theme">
+                    <div class="clientlogo">
+                        <a href="https://www.skylaservicedapartments.com/" target="_blank" rel="nofollow"><span class="client_content"><img src="images/clients/skylaservicedapartments.png" alt="skylaservicedapartments"></span><h4>Skyla Serviced Apartments <span>India</span></h4></a>
+                    </div>
+                    <div class="clientlogo" style="background: #237bc1;">
+                        <a href="http://www.citynitesapartments.com/" target="_blank" rel="nofollow"><span class="client_content"><img src="images/clients/citynitesapartments.png" alt="citynitesapartments"></span><h4>City Nites Serviced Apartments <span>United Kingdom</span></h4></a> 
+                    </div>
+                    <div class="clientlogo">
+                        <a href="https://villaroyalapartments.com/" target="_blank" rel="nofollow"><span class="client_content"><img src="images/clients/villaroyalapartments.png" alt="villaroyalapartments"></span><h4>Villa Royal Apartments <span>Serbia</span></h4></a>   
+                    </div>
+                    <div class="clientlogo">
+                        <a href="http://midtownajman.com/" target="_blank" rel="nofollow"><span class="client_content"><img src="images/clients/midtownajman.png" alt="midtownajman"></span><h4>Midtown Furnished Apartments <span>United Arab Emirates</span></h4></a>  
+                    </div>
+                    <div class="clientlogo" style="background: #2b3095;">
+                        <a href="https://www.saraairporthotel.com/" target="_blank" rel="nofollow"><span class="client_content"><img src="images/clients/saraairporthotel.png" alt="saraairporthotel"></span><h4>Sara Hotels and Apartments <span>India</span></h4></a>  
+                    </div>
+                    <div class="clientlogo">
+                        <a href="https://poshapartments.biz/" target="_blank" rel="nofollow"><span class="client_content"><img src="images/clients/poshapartments.png" alt="poshapartments"></span><h4>Posh Apartments and Hotel <span>Nigeria</span></h4></a>  
+                    </div>
+                    <div class="clientlogo">
+                        <a href="http://parkland.com.my/apartments/" target="_blank" rel="nofollow"><span class="client_content"><img src="images/clients/parkland.png" alt="parkland"></span><h4>Parkland Apartments <span>Malaysia</span></h4></a>  
+                    </div>
+                    <div class="clientlogo" style="background: #8c1a16;">
+                        <a href="http://www.dunesdubai.com/" target="_blank" rel="nofollow"><span class="client_content"><img src="images/clients/dunesdubai.png" alt="dunesdubai"></span><h4>Dunes Hotel Apartments <span>Dubai</span></h4></a>  
+                    </div>
+                    <div class="clientlogo" style="background: #6d6f80;">
+                        <a href="http://www.budapestbestapartments.com/" target="_blank" rel="nofollow"><span class="client_content"><img src="images/clients/budapestbestapartments-logo.png" alt="budapestbestapartments"></span><h4>Budapest Best Apartments <span>Hungary</span></h4></a>  
+                    </div>
+                    <div class="clientlogo" style="background: #2b2013;">
+                        <a href="http://cliobali.com/" target="_blank" rel="nofollow"><span class="client_content"><img src="images/clients/cliobali.png" alt="cliobali"></span><h4>Clio Apartments <span>Indonesia</span></h4></a>  
+                    </div>
+
+                </div>
+                <!-- End: clientlogo_container -->
+            </div>
+        </div>
+        <!-- End: mp-testimonial -->
+
+        <section class="faqSection faqSectionBluebg">
+            <div class="container">
+                <div class="faqSection-outer">
+                    <h2>FAQ: Find the answers to the questions that tickle your mind</h2>
+
+                    <div class="faqSection-listing">
+                        <ul class="faqs faqcatwise">
+                            <li class="shdw-more">
+                                <div class="faqque">Can this apartment management software be integrated with the booking engine and/or channel manager I am currently using?</div>
+                                <div class="faqans" style="display: block;">
+                                    <p>Yes definitely, our serviced apartment software can be seamlessly integrated with whichever solutions you may be using presently. In fact, eZee Absolute is already connected with many such booking engines and channel managers. Find the entire list <a href="https://ezeetechnosys.com/marketplace/all/Online-Hotel-Management-System" target="_blank" rel="noopener">here</a> (Feel free to contact us in case you do not find your solutions in the list.)</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="faqque">What are the safety measures provided by the company for my data security?</div>
+                                <div class="faqans">
+                                    <p>With our apartment management software, your data is completely safe. Our servers hold the highest level of security with respect to the industry standards. Which is why it ensures maximum uptime, data security, and firewalls.</p>
+                                    <p>To prevent your data loss due to any unforeseen situations, all your information gets backed- up to the secondary and tertiary systems hosted on AWS.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="faqque">Does this apartment management software work for residential apartments?</div>
+                                <div class="faqans">
+                                    <p>No. This apartment management software only works for serviced apartments, aparthotels and boutique apartments.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="faqque">Does this apartment system support regional tax subjections and other compliances?</div>
+                                <div class="faqans">
+                                    <p>Yes, the serviced apartment management software supports the tax that your region is subjected to. Moreover, it can even attain compliance with any special requirement of your regional government.</p>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="faqque">Does the apartment management system have other important 3rd party integrations?</div>
+                                <div class="faqans">
+                                    <p>Yes, this serviced apartment software already has many important third-party integrations like printer integrations, payment gateways, SMS gateways, Financial accounting software etc.. <a href="interfaces.php" target="_blank" rel="noopener">Find the entire list here</a>. Apart from these, we’re also open to any such third party integrations</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="faqque">Can I have 2-way connections with the OTAs that I am connected with or want to connect with?</div>
+                                <div class="faqans">
+                                    <p>Yes, this apartment management software can be easily integrated with most regional and international OTAs. Also, it has already been connected to more than 130 regional and international online channels. You can find them <a href="https://ezeetechnosys.com/marketplace/all/OTA" target="_blank" rel="noopener">here</a>.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="faqque">How can I choose the best software subscription plan for my serviced apartments?</div>
+                                <div class="faqans">
+                                    <p>The ideal plan for eZee’s apartment system largely depends on the number of rooms your serviced apartment has. It also depends on your requirements. Which is why you get four different plans to choose from. from four different plan. Moreover, you can also avail the quarterly, half-yearly and yearly subscriptions. <a href="pricing.php" target="_blank" rel="noopener">Get your best quote today</a>.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="faqque">Can I manage my chain of serviced apartments?</div>
+                                <div class="faqans">
+                                    <p>Undoubtedly yes. With this apartment management system, you can effectively handle the entire chain of your serviced apartments from one place. It has many dynamic features that can make your work easier, faster and more accurate. <a href="multiproperty.php" target="_blank" rel="noopener">Follow this link to know more about it</a>.</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="faqBtmcta">If you don't find your question here, please <a href="contactus.php">get back to us</a>.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="faqVector"><img src="images/faq-vector.png" alt="faq"></div>
+        </section>
+        <!-- End: faqSection -->
+
+        <div class="cta2">
+            <div class="secdiv"><img src="images/apt_hotel_footer.png" alt="apt_hotel_footer"></div>
+            <div class="secdiv contpart">
+                <h3>Ultimately, eZee will upturn your revenue, simplify your operations and everything else. </h3>
+                <a href="<?php echo $servername; ?>livedemo.php" class="btn btn-primary ">Take a free trial</a>
+            </div>
+        </div>     
+
+    </div>
+</div>
+<!-- End: propertypage -->
+
+<link rel="stylesheet" href="js/owl-carousel/owl.carousel.css">
+<link rel="stylesheet" href="js/owl-carousel/owl.theme.css">
+<script src="js/owl-carousel/owl.carousel.min.js"></script>
+<script>
+    $(function() {
+
+        if($("div").hasClass("propertypage")){
+            $("body").addClass("apartmentBody");
+        }
+
+        $('#client_testimonials').owlCarousel({
+            autoPlay : 5000,
+            itemsTablet : [768,3],
+            itemsTablet : [767,2],
+            itemsMobile : [479,1]
+        });
+
+        // FAQ
+        $('.faqque').on('click', function(){
+            $(this).next('.faqans').toggle();
+            $(this).parents('li').toggleClass('shdw-more');
+        });
+
+        $('.quecat a').on('click', function(){
+            var faqTitle = $(this).text();
+            $('.faqCat-title').text(faqTitle);
+        });
+        
+        $('.quecat').find('a').each(function(){
+            $(this).on('click', function(){
+                $('.quecat').find('a').removeClass('fselected');
+                $(this).addClass('fselected');
+                var ccat = $(this).attr('data-cat');
+                if(ccat == "all"){
+                    $('.faqcatwise').find('li').show();
+                }else{
+                    $('.faqcatwise').find('li').hide();
+                    $('.faqcatwise').find('li[data-faq='+ccat+']').show();
+                }
+            });
+        });
+
+    });
+</script>
+<?php include "includes/footer.php"; ?>
